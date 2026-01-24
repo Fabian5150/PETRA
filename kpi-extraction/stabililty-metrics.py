@@ -51,6 +51,6 @@ def get_path_stability(data):
     path_stability_index = 1 - entropy_normed
 
     return {
-        "variant_amount": len(variants_count),
+        "variant-amount": len(variants_count),
         "index": path_stability_index
     }
