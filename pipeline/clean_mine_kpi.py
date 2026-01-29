@@ -10,11 +10,12 @@ from mining.mine_bpmn import get_bpmn_heuristic, get_bpmn_inductive
 
 def run_pipeline():
     data = import_2012()
-
+    
+    
     data = data.pipe(
         clean    
     ).pipe(
         get_bpmn_heuristic
     )
-
-    print(data.head)
+    
+    print(data)

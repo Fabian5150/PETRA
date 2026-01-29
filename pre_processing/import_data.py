@@ -5,13 +5,4 @@ def import_2012():
 
     log.drop(["case:AMOUNT_REQ", "case:REG_DATE"], axis=1)
 
-    log = log.rename(columns={
-        "case:concept:name" : "case_id",
-        "concept:name" : "activity_key",
-        "time:timestamp" : "timestamp",
-        "org:resource" : "resource",
-        "lifecycle:transition" : "transition",
-        "case:REG_DATE" : "case_start"
-    })
-
     return log
