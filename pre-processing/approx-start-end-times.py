@@ -3,7 +3,7 @@ import pm4py as pm
 import numpy as np
 
 # TODO: Generalize this script; make path, column and entity names variable
-# TODO: Refactor everythin into distinct functions
+# TODO: Refactor everything into distinct functions
 
 log = pm.read_xes("/home/fabian/gitProjects/uni/ba/petra/data/BPI-Challenge-2012_1_all/BPI_Challenge_2012.xes")
 
