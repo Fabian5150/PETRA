@@ -1,6 +1,6 @@
 # start with uvicorn main:app --reload
 from fastapi import FastAPI
-from routes import router
+from api.routes import router
 
 app = FastAPI()
 
