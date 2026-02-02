@@ -33,6 +33,7 @@ def load_bpmn():
 """
 Stores a serializes bpmn xml string
 in bpmn.json state file
+TODO: Just use the pm4py file export, instead of writing it's content as string to a json file
 """
 def store_bpmn(bpmn_string: str):
     with bpmn_file.open("w", encoding="utf-8") as f:

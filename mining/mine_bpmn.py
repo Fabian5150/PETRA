@@ -1,4 +1,5 @@
 import pm4py as pm
+from pm4py.objects.bpmn.layout import layouter
 
 """
 Mines a log with the heuristic miner and returns the bpmn model
@@ -34,5 +35,7 @@ Serializes a bpmn pm4py bpmn type model into a standard bpmn 2.0 xml string
 that bpmn-js can directly read
 """
 def get_xml_string(bpmn_model):
+    bpmn_model = layouter.apply(bpmn_model)
+    
     _, xml_bytes = pm.serialize(bpmn_model)  
     return xml_bytes.decode('utf-8')
