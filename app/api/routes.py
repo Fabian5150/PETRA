@@ -12,4 +12,5 @@ def get_current_process_model():
 @router.get("/kpis")
 def get_current_kpis():
     data = load_kpis()
+    
     return data
