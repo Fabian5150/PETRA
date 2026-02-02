@@ -36,6 +36,6 @@ that bpmn-js can directly read
 """
 def get_xml_string(bpmn_model):
     bpmn_model = layouter.apply(bpmn_model)
-    
+
     _, xml_bytes = pm.serialize(bpmn_model)  
     return xml_bytes.decode('utf-8')
