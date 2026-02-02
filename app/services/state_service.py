@@ -1,6 +1,5 @@
 import json
 from pathlib import Path
-from pm4py.objects.bpmn.obj import BPMN
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 kpi_file = BASE_DIR / "state" / "kpis.json"
