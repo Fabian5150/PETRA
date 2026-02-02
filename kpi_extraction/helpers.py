@@ -9,8 +9,8 @@ def get_grouped_cycle_time_df(data, isStartEndLog = True):
         )
     else:
         cycle_times = data.groupby("case:concept:name").agg(
-            start=("start_timestamp", "min"),
-            end=("end_timestamp", "max")
+            start=("time:timestamp", "min"),
+            end=("time:timestamp", "max")
         )
 
 
