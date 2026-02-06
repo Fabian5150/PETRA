@@ -53,8 +53,8 @@ def get_reworkrate(data):
 
     return {
         "rework-cases-total": affected_cases,
-        "rework-cases-percentage": round(rework_rate_pct, 2),
-        "rework-amount-mean": round(avg_reworks_per_case, 2),
-        "rework-time-med-min": round(median_rework_time, 0), # sum of activity times of reworks
-        "rework-time-diff-med-min": round(median_rework_time_diff, 0) # time delta between first and second occurence of rework activity
+        "rework-cases-percentage": float(round(rework_rate_pct, 2)),
+        "rework-amount-mean": float(round(avg_reworks_per_case, 2)),
+        "rework-time-med-min": float(round(median_rework_time, 0)), # sum of activity times of reworks
+        "rework-time-diff-med-min": float(round(median_rework_time_diff, 0)) # time delta between first and second occurence of rework activity
     }

@@ -1,6 +1,3 @@
-"""
-TODO: ggf. Refactor to just use time:timestamp instead of start and end times
-"""
 def get_grouped_cycle_time_df(data, isStartEndLog = True):
     if(isStartEndLog):
         cycle_times = data.groupby("case:concept:name").agg(

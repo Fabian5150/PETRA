@@ -9,6 +9,8 @@ from kpi_extraction.throughput_metrics import *
 
 from pre_processing.import_data import import_2012
 
+from app.services.state_service import store_kpis
+
 def run_pipeline():
     data = import_2012()
 
@@ -25,7 +27,7 @@ def run_pipeline():
     # at_stability = get_activity_time_stability(data) # need event log with start and end times
     path_stability = get_path_stability(data)
 
-    return {
+    kpi_dict = {
         "Cycle Time": cycle_time_metrics,
         "Throughput": throughput_metrics,
         "Reworks": "tbd", # rework_metrics
@@ -36,6 +38,10 @@ def run_pipeline():
             "Path Stability": path_stability
         }    
     }
+
+    print("\n\n", kpi_dict, "\n\n")
+
+    store_kpis(kpi_dict)
 
 if __name__ == "__main__":
     run_pipeline()
