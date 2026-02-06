@@ -31,8 +31,8 @@ def get_throuput(cycle_times):
     wip_estimate_little = throughput_per_day * avg_cycle_time_days
 
     return {
-        "throughput-daily": float(round(throughput_per_day, 3)),
-        "wip-mean": float(round(avg_wip, 3)),
-        "wip-max": float(round(max_wip, 3)),
-        "littles-law-est": float(round(wip_estimate_little, 3))
+        "throughput-daily": float(round(throughput_per_day, 1)),
+        "wip-mean": float(round(avg_wip, 1)),
+        "wip-max": float(round(max_wip, 1)),
+        "littles-law-est": float(round(wip_estimate_little, 1))
     }

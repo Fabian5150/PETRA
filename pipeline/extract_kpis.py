@@ -31,12 +31,12 @@ def run_pipeline():
         "Cycle Time": cycle_time_metrics,
         "Throughput": throughput_metrics,
         "Reworks": "tbd", # rework_metrics
-        "Bottlenecks": bottleneck_metrics,
         "Stability": {
             "Cycle Time Stability": ct_stability,
             "Activity Time Stability": "tbd", # at_stability
             "Path Stability": path_stability
-        }    
+        },
+        "Bottlenecks": bottleneck_metrics
     }
 
     print("\n\n", kpi_dict, "\n\n")

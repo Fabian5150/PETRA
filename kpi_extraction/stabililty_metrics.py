@@ -16,7 +16,7 @@ def get_ct_stability(cycle_times):
     # normalized stability score
     ct_stability_index = 1 / (1 + ct_stability)
 
-    return float(ct_stability_index)
+    return float(round(ct_stability_index, 2))
 
 """
 Returns a activity time stability index (mean)
@@ -31,7 +31,7 @@ def get_activity_time_stability(data):
 
     activity_durations_vc = 1 / (1 + activity_durations_vc)
 
-    return float(activity_durations_vc.mean())
+    return float(round(activity_durations_vc.mean(), 2))
 
 """
 Returns the amount of distinc variants and ap path stability index (shannon entropy)
@@ -52,5 +52,5 @@ def get_path_stability(data):
 
     return {
         "variant-amount": len(variants_count),
-        "index": float(path_stability_index)
+        "index": float(round(path_stability_index, 2))
     }
