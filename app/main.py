@@ -18,6 +18,3 @@ app.add_middleware(
 )
 
 app.include_router(router)
-
-for r in app.routes:
-    print(r.path, r.methods)

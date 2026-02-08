@@ -8,7 +8,7 @@ from pre_processing.approx_start_end_times import *
 
 from mining.mine_bpmn import get_bpmn_heuristic, get_bpmn_inductive
 
-from app.services.state_service import store_bpmn
+from app.services.state_service import store_bpmn_obj
 
 def run_pipeline():
     data = import_2012()
@@ -19,7 +19,7 @@ def run_pipeline():
         get_bpmn_heuristic
     )
     
-    store_bpmn(data)
+    store_bpmn_obj(data)
     
 
 if __name__ == "__main__":
