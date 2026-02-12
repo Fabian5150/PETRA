@@ -1,0 +1,40 @@
+version: 5
+
+common:
+  log_ids:
+    case: "case_id"
+    activity: "activity_key"
+    resource: "resource"
+    start_time: "start_date"
+    end_time: "end_date"
+  train_log_path: "2012_start_end_times.csv"
+  test_log_path: null # TODO: do train/test-split before
+  perform_final_evaluation: false
+
+preprocessing:
+  enable_time_filtering: false
+  enable_outlier_filtering: false
+
+control_flow:
+  mining_algorithm: "sm1" # split miner
+  epsilon: 0.1
+  eta: 0.4
+  replace_or_joins: true
+
+optimization:
+  optimization_metric: "dl" # distance_log
+  max_evaluations: 10
+  num_iterations: 10
+  gateway_probabilities: true
+
+simulation:
+  model_type: "BPMN"
+  num_instances: 1000
+
+resource:
+  discover_prioritization_rules: true
+  discover_batching_rules: true
+
+calendar:
+  discovery_type: "differentiated_by_resource" # undifferentiated, differentiated_by_pool
+  granularity: 60
