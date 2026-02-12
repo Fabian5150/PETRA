@@ -11,28 +11,27 @@ log = pm.read_xes("/home/fabian/gitProjects/uni/ba/petra/data/BPI-Challenge-2012
 log.drop(["case:AMOUNT_REQ", "case:REG_DATE"], axis=1)
 
 log = log.rename(columns={
-    "case:concept:name" : "case_id",
-    "concept:name" : "activity_key",
-    "time:timestamp" : "timestamp",
-    "org:resource" : "resource",
-    "lifecycle:transition" : "transition",
-    "case:REG_DATE" : "case_start"
+    "case:concept:name" : "case:concept:name",
+    "concept:name" : "concept:name",
+    "time:timestamp" : "time:timestamp",
+    "org:resource" : "org:resource",
+    "lifecycle:transition" :  "lifecycle:transition",
 })
 
 # Get start and end entries
-start_entries = log[log["transition"] == "START"].sort_values(by="timestamp")
-end_entries = log[log["transition"] == "COMPLETE"].sort_values(by="timestamp")
+start_entries = log[log["transition"] == "START"].sort_values(by="time:timestamp")
+end_entries = log[log["transition"] == "COMPLETE"].sort_values(by="time:timestamp")
 
 # Get all activity types which are in end_entries, but not in start_entries or schedule_entries
-start_activity_types = set(start_entries["activity_key"].unique())
-end_activity_types = set(end_entries["activity_key"].unique())
+start_activity_types = set(start_entries["concept:name"].unique())
+end_activity_types = set(end_entries["concept:name"].unique())
 
 unmatched_activity_types = list(end_activity_types - start_activity_types)
 
-start_case_grouping = start_entries.groupby("case_id")
+start_case_grouping = start_entries.groupby("case:concept:name")
 start_case_ids = list(start_case_grouping.groups.keys())
 
-end_case_grouping = end_entries.groupby("case_id")
+end_case_grouping = end_entries.groupby("case:concept:name")
 
 start_end_log = []
 unmatched_entries = [] # unmatched start or end entries => approximate their corresponding start/end date
@@ -42,9 +41,9 @@ def merge_start_end (start, end):
     # Maybe also keep ids for start and end event?
     # This way they could be linked to their correspondece in the other log for pm
     event = dict()
-    event["activity_key"] = start.activity_key
+    event["concept:name"] = start.activity_key
     event["resource"] = start.resource
-    event["case_id"] = start.case_id
+    event["case:concept:name"] = start.case_id
     event["start_date"] = start.timestamp
     event["end_date"] = end.timestamp
 
@@ -75,7 +74,7 @@ real_log = pd.DataFrame(start_end_log)
 
 # Aggregate average cycle times per activity type
 activity_cycle_times = real_log.assign(cycle_time = lambda entry : entry["end_date"] - entry["start_date"])
-average_cycle_times = activity_cycle_times.groupby("activity_key")["cycle_time"].mean()
+average_cycle_times = activity_cycle_times.groupby("concept:name")["cycle_time"].mean()
 
 # Approximate start / end times of unmatched entries with types, where an average could be determined
 # If it can't be approxiamted, assume it's an automatic activity => start time = end time
@@ -84,9 +83,9 @@ average_cycle_times = activity_cycle_times.groupby("activity_key")["cycle_time"]
 # instead of just assuming they're all automatic
 def create_event (entry, approx_start = None, approx_end = None):
     event = dict()
-    event["activity_key"] = entry.activity_key
+    event["concept:name"] = entry.activity_key
     event["resource"] = entry.resource
-    event["case_id"] = entry.case_id
+    event["case:concept:name"] = entry.case_id
     
     if(approx_start):
         event["start_date"] = approx_start
