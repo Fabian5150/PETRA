@@ -14,4 +14,7 @@ def import_2012():
         "lifecycle:transition" : "transition"
     })
 
+    log["resource"] = log["resource"].astype(str)
+    log["case_id"] = log["case_id"].astype(str)
+
     return log

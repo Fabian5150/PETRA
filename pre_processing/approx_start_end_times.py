@@ -34,6 +34,8 @@ def approx_start_end_times(log, start_lifecycle_name = "START", end_lifecycle_na
 
         return event
 
+    print("--- Merging existing start and end time entries ---")
+
     for id in start_case_ids:
         case_starts = start_case_grouping.get_group(id).itertuples()
         case_ends = list(end_case_grouping.get_group(id).itertuples())
@@ -59,6 +61,8 @@ def approx_start_end_times(log, start_lifecycle_name = "START", end_lifecycle_na
     real_log["start_date"] = pd.to_datetime(real_log["start_date"], format="ISO8601")
     real_log["end_date"] = pd.to_datetime(real_log["end_date"], format="ISO8601")
 
+    print("--- Aggregating average activity times per activity type ---")
+
     # Aggregate average cycle times per activity type
     activity_cycle_times = real_log.assign(cycle_time = lambda entry : entry["end_date"] - entry["start_date"])
     average_cycle_times = activity_cycle_times.groupby("activity_key")["cycle_time"].mean()
@@ -82,6 +86,8 @@ def approx_start_end_times(log, start_lifecycle_name = "START", end_lifecycle_na
 
     start_end_log = []
 
+    print("--- Approximating activity times for unmatched entries ---")
+
     for entry in unmatched_entries:
         if(entry.transition == "COMPLETE"): # end entry
             if(entry.activity_key in start_activity_types):
@@ -100,7 +106,9 @@ def approx_start_end_times(log, start_lifecycle_name = "START", end_lifecycle_na
     # Merge the finished start/end-time logs
     log = pd.concat([real_log, approx_log], axis=0)
 
-    # Assign all entries without resource to a global orphanage resource
+    print("--- Assigning all entries without resource to a global orphanage resource ---")
+    print(log.dtypes)
+
     log["resource"] = log["resource"].fillna("GLOBAL")
 
     return log
