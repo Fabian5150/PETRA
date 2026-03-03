@@ -4,6 +4,7 @@ import pandas as pd
 Takes a log with a transition column
 to approximate missing start and end times for each activity
 TODO: Refactor this mess
+I am really not proud of this...
 """
 def approx_start_end_times(log, start_lifecycle_name = "START", end_lifecycle_name = "COMPLETE"):
     start_entries = log[log["transition"] == start_lifecycle_name].sort_values(by="timestamp")
@@ -107,8 +108,8 @@ def approx_start_end_times(log, start_lifecycle_name = "START", end_lifecycle_na
     log = pd.concat([real_log, approx_log], axis=0)
 
     print("--- Assigning all entries without resource to a global orphanage resource ---")
-    print(log.dtypes)
 
-    log["resource"] = log["resource"].fillna("GLOBAL")
+    log["resource"] = log["resource"].astype(str)
+    log["resource"] = log["resource"].replace("nan", "GLOBAL")
 
     return log
