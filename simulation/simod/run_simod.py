@@ -3,7 +3,7 @@ from simod.event_log.event_log import EventLog
 from simod.settings.simod_settings import SimodSettings
 from simod.simod import Simod
 
-def run_simod(log_path: str, config_path: str, output_dir: str):
+def run_my_simod(log_path: str, config_path: str, output_dir: str):
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
     
@@ -23,8 +23,8 @@ def run_simod(log_path: str, config_path: str, output_dir: str):
     
     print(f"simod output in: {output}")
 
-run_simod(
+""" run_my_simod(
     log_path="simulation/2012_start_end_times.csv",
     config_path="simulation/simod_config.yml",
     output_dir="./simod_output"
-)
+) """

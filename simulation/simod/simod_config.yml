@@ -7,7 +7,7 @@ common:
     resource: "resource"
     start_time: "start_date"
     end_time: "end_date"
-  train_log_path: "2012_start_end_times.csv"
+  train_log_path: "42" # gets overwritten in python script
   test_log_path: null # TODO: do train/test-split before
   perform_final_evaluation: false
 
