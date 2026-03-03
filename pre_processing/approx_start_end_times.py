@@ -109,7 +109,6 @@ def approx_start_end_times(log, start_lifecycle_name = "START", end_lifecycle_na
 
     print("--- Assigning all entries without resource to a global orphanage resource ---")
 
-    log["resource"] = log["resource"].astype(str)
-    log["resource"] = log["resource"].replace("nan", "GLOBAL")
+    log["resource"] = log["resource"].astype(str).replace("nan", "GLOBAL")
 
     return log
