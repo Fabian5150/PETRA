@@ -11,14 +11,14 @@ simod_config_path = Path(__file__).parent.parent / "simulation" / "simod" / "sim
 simod_output_path = Path(__file__).parent.parent / "state" / "simod_out"
 
 def run_pipeline():
-    """ data = import_2012()
+    data = import_2012()
     
     data = data.pipe(
         approx_start_end_times
     )
     
     print("--- Writing dataframe with approximated activity times to csv ---")
-    data.to_csv(approx_csv_path, index=False) """
+    data.to_csv(approx_csv_path, index=False)
 
     print("--- Starting Simod ---")
 
@@ -27,8 +27,6 @@ def run_pipeline():
         config_path=simod_config_path,
         output_dir=simod_output_path
     )
-
-    
 
 if __name__ == "__main__":
     run_pipeline()

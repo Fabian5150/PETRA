@@ -2,7 +2,12 @@ import subprocess
 from pathlib import Path
 import pandas as pd
 
-def run_prosimos(bpmn_path: str, json_path: str, output_csv: str, num_cases: int = 1000):
+script_dir = Path(__file__).parent.parent.parent
+bpmn_path=script_dir / "state/simod_out/best_result/bpi_2012_approx_activity_times.bpmn"
+json_path=script_dir / "state/simod_out/best_result/bpi_2012_approx_activity_times.json"
+output_csv=script_dir / "data/temp/prosimos_log.csv",
+
+def run_prosimos(num_cases: int = 1000):
     bpmn_path = Path(bpmn_path).resolve()
     json_path = Path(json_path).resolve()
     output_csv = Path(output_csv).resolve()
@@ -15,8 +20,12 @@ def run_prosimos(bpmn_path: str, json_path: str, output_csv: str, num_cases: int
         "--log_out_path", str(output_csv)
     ], check=True)
 
-def convert_prosimos_csv(prosimos_csv: str):
-    log = pd.read_csv(prosimos_csv)
+"""
+Reads in the prosimos csv, renames the columns to match the kpi scripts
+and returns it as df
+"""
+def convert_prosimos_csv():
+    log = pd.read_csv(output_csv)
     
     log = log.rename(columns={
         "activity": "activity_key",
@@ -28,14 +37,3 @@ def convert_prosimos_csv(prosimos_csv: str):
     print(log.columns)
 
     return log
-
-if __name__ == "__main__":
-    script_dir = Path(__file__).parent.parent.parent
-    
-    run_prosimos(
-        bpmn_path=script_dir / "state/simod_out/best_result/bpi_2012_approx_activity_times.bpmn",
-        json_path=script_dir / "state/simod_out/best_result/bpi_2012_approx_activity_times.json",
-        output_csv=script_dir / "state/prosimos_out/simulated_log.csv",
-    )
-
-    convert_prosimos_csv(script_dir / "state/prosimos_out/simulated_log.csv")
