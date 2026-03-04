@@ -22,9 +22,3 @@ def run_my_simod(log_path: str, config_path: str, output_dir: str):
     simod.run()
     
     print(f"simod output in: {output}")
-
-""" run_my_simod(
-    log_path="simulation/2012_start_end_times.csv",
-    config_path="simulation/simod_config.yml",
-    output_dir="./simod_output"
-) """

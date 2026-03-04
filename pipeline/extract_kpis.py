@@ -11,9 +11,7 @@ from pre_processing.import_data import import_2012
 
 from app.services.state_service import store_kpis
 
-def run_pipeline():
-    data = import_2012()
-
+def run_pipeline(data):
     cycle_times = get_grouped_cycle_time_df(data, False)
 
     cycle_time_metrics = get_cycle_time(cycle_times)
@@ -44,4 +42,4 @@ def run_pipeline():
     store_kpis(kpi_dict)
 
 if __name__ == "__main__":
-    run_pipeline()
+    run_pipeline(import_2012())
