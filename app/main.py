@@ -1,4 +1,4 @@
-# start with uvicorn main:app --reload
+# uvicorn main:app --reload
 from fastapi import FastAPI
 from api.routes import router
 from fastapi.middleware.cors import CORSMiddleware
