@@ -17,6 +17,6 @@ def get_current_kpis():
     
     return data
 
-@router.post("/process-model")
+@router.post("/process-model-simulation")
 def set_current_process_model(bpmnString: str = Body(..., media_type="text/plain")):
     store_bpmn_str(bpmnString)
