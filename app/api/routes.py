@@ -29,7 +29,7 @@ Blocks response until prosimos is done
 """
 @router.post("/process-model-simulation")
 def set_current_process_model(bpmnString: str = Body(..., media_type="text/plain")):
-    store_bpmn_str(bpmnString)
+    store_bpmn_str(bpmnString, layout = True)
 
     run_prosimos()
 

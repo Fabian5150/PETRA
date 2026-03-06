@@ -1,7 +1,9 @@
 import json
 from pathlib import Path
 import pm4py as pm
+from io import StringIO
 from pm4py.objects.bpmn.obj import BPMN
+from pm4py.objects.bpmn.layout import layouter
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 kpi_file = BASE_DIR / "state" / "kpis.json"
@@ -37,12 +39,20 @@ def load_bpmn_str():
 
 """
 Stores a pm4py bpmn object in the bpmn state file as standardized bpmn 2.0 xml
+Can adjust its' layout
 """
-def store_bpmn_obj(process_model: BPMN):
+def store_bpmn_obj(process_model: BPMN, layout = True):
+    if(layout):
+        process_model = layouter.apply(process_model)
+    
     pm.write_bpmn(process_model, bpmn_file)
 
 """
 Stores a bpmn xml string directly in the bpmn state file
+Can adjust its' layout
 """
-def store_bpmn_str(bpmn_string: str):
+def store_bpmn_str(bpmn_string: str, layout = True):
     bpmn_file.write_text(bpmn_string, encoding='utf-8')
+
+    if(layout):
+        store_bpmn_obj(load_bpmn_obj(), layout = True)
