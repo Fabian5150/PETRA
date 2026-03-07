@@ -98,13 +98,11 @@ def calculate_transition_probabilities(transitions: pd.DataFrame):
     return transitions
 
 def run_pipeline(log):
+    abs_state = identify_absorption_state(log)
+
     return (log
-        .pipe(identify_absorption_state)
-        .pipe(apply_absorption_effect)
+        .pipe(apply_absorption_effect, abs_state)
         .pipe(create_source_target_pairs)
         .pipe(filter_short_cases)
         .pipe(calculate_transition_probabilities)
     )
-
-if __name__ == "__main__":
-    run_pipeline()
