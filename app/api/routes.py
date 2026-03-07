@@ -7,7 +7,7 @@ from services.state_service import load_kpis, load_bpmn_str, store_bpmn_str
 
 # wow, I hate python...
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from pipeline.simulate_get_kpis import run_pipeline as run_prosimos
+from pipelines.simulate_get_kpis import run_pipeline as run_prosimos
 
 router = APIRouter()
 
