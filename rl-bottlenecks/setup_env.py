@@ -48,3 +48,9 @@ def build_reward_matrix(transition_log, state_to_idx, bottleneck_act_name):
             rewards[s_idx, t_idx] = prob  # weighted reward for normal transitions based on transition probabilty
     
     return rewards
+
+def setup_env(transition_log):
+    return (transition_log
+        .pipe(initialize_q_table)
+        .pipe(build_reward_matrix)
+    )
