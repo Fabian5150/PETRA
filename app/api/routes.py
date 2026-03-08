@@ -3,7 +3,7 @@ from pathlib import Path
 from fastapi import APIRouter, Body
 from fastapi.responses import PlainTextResponse
 
-from services.state_service import load_kpis, load_bpmn_str, store_bpmn_str
+from services.state_service import load_kpis, load_bpmn_str, store_bpmn_str, load_optimal_path
 
 # wow, I hate python...
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -11,7 +11,7 @@ from pipelines.simulate_get_kpis import run_pipeline as run_prosimos
 
 router = APIRouter()
 
-@router.get("/process-model", response_class=PlainTextResponse)
+@router.get("/process-model", response_class = PlainTextResponse)
 def get_current_process_model():
     data = load_bpmn_str()
 
@@ -21,6 +21,12 @@ def get_current_process_model():
 def get_current_kpis():
     data = load_kpis()
     
+    return data
+
+@router.get("/optimal-path")
+def get_optimal_path():
+    data = load_optimal_path()
+
     return data
 
 """

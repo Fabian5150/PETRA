@@ -56,6 +56,7 @@ def store_bpmn_str(bpmn_string: str, layout = True):
 
     if(layout):
         store_bpmn_obj(load_bpmn_obj(), layout = True)
+        
 """
 Stores the optimal path as list given from the RL pathfinder
 """
