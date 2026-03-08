@@ -1,13 +1,12 @@
 # Pipeline for simulating a bpmn process and running the RL bottleneck enhancer on its' output
 
 from simulation.prosimos.run_prosimos import run_sim
-from rl.pre_proc_pipeline import run_pipeline as rl_preproc 
+from rl_bottlenecks.rl_pipeline import run_q_learning_pipeline
 
 def run_pipeline():
     sim_log = run_sim()
 
-    print("--- Preprocessing Log for RL Agents ---")
-    rl_pre_log = rl_preproc(sim_log)
+    optimal_path = run_q_learning_pipeline(sim_log)
 
     
 if __name__ == "__main__":
