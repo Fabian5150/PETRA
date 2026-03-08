@@ -2,21 +2,17 @@ import numpy as np
 import pandas as pd
 
 """
-Creates an empty q-table (filled with zeros) and a mapping for activities and table indices
+Creates a mapping between activity (state) names and indices in the q table
 """
-def initialize_q_table(transition_log: pd.DataFrame):
+def create_state_mappings(transition_log: pd.DataFrame):
     all_states = set(transition_log["source_activity"].unique()) | set(transition_log["target_activity"].unique())
     all_states = sorted(list(all_states))
-    
-    n_states = len(all_states)
     
     # activity name / table index - mapping
     state_to_idx = {state: idx for idx, state in enumerate(all_states)}
     idx_to_state = {idx: state for state, idx in state_to_idx.items()}
     
-    q_table = np.zeros((n_states, n_states))
-    
-    return q_table, state_to_idx, idx_to_state
+    return state_to_idx, idx_to_state
 
 """
 Builds the reward matrix according to the paper:
@@ -48,9 +44,3 @@ def build_reward_matrix(transition_log, state_to_idx, bottleneck_act_name):
             rewards[s_idx, t_idx] = prob  # weighted reward for normal transitions based on transition probabilty
     
     return rewards
-
-def setup_env(transition_log):
-    return (transition_log
-        .pipe(initialize_q_table)
-        .pipe(build_reward_matrix)
-    )
