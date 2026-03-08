@@ -34,7 +34,7 @@ class GymEnv(gym.Env):
         next_state = action
         
         terminated = (
-            self.idx_to_state[next_state] == 'end' or
+            self.idx_to_state[next_state] == "end" or
             self.idx_to_state[next_state] == self.bottleneck
         )
         

@@ -39,7 +39,7 @@ def run_q_learning_pipeline(log, n_episodes=4000, alpha=0.1, gamma=0.9):
     env = GymEnv(transition_log, state_to_idx, idx_to_state, bottleneck, start_state_indices)
     
     print("--- Training model ---")
-    q_table, _ = train_q_learning(
+    q_table = train_q_learning(
         env,
         n_episodes=n_episodes,
         alpha=alpha,

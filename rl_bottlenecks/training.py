@@ -3,8 +3,7 @@ import numpy as np
 from rl_bottlenecks.epsilon_policy import update_epsilon, epsilon_greedy_action
 from rl_bottlenecks.q_values import update_q_value
 
-def train_q_learning(env, n_episodes=4000, alpha=0.1, gamma=0.9,
-                    epsilon_start=1.0, epsilon_min=0.01, epsilon_decay=0.001):
+def train_q_learning(env, n_episodes=4000, alpha=0.1, gamma=0.9, epsilon_start=1.0, epsilon_min=0.01, epsilon_decay=0.001):
     
     n_states = env.observation_space.n
     q_table = np.zeros((n_states, n_states))
@@ -45,13 +44,4 @@ def train_q_learning(env, n_episodes=4000, alpha=0.1, gamma=0.9,
         rewards_per_episode.append(total_reward)
         regrets_per_episode.append(total_regret)
     
-    print(f"\nTraining completed!")
-    print(f"Final average reward (last 100 episodes): {np.mean(rewards_per_episode[-100:]):.2f}")
-    
-    metrics = {
-        'rewards_per_episode': rewards_per_episode,
-        'regrets_per_episode': regrets_per_episode,
-        'epsilon_per_episode': epsilon_per_episode
-    }
-    
-    return q_table, metrics
+    return q_table

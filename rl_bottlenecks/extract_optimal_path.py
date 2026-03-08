@@ -19,7 +19,7 @@ def extract_optimal_path(q_table, state_to_idx, idx_to_state, start_activities, 
         state_name = idx_to_state[current_state]
         path.append(state_name)
         
-        if state_name == 'end':
+        if state_name == "end":
             break
         
         # detects loops and exits path
