@@ -1,3 +1,5 @@
+import numpy as np
+
 """
 Update the q value for a given state an action with the equation from the paper
 with standard values for learning rate alpha, discount factor gamma
