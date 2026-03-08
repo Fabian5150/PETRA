@@ -21,11 +21,13 @@ docutils==0.22.4
 exceptiongroup==1.3.1
 executing==2.2.1
 extraneous-activity-delays==2.2.1
+Farama-Notifications==0.0.4
 fastapi==0.128.8
 fonttools==4.60.2
 future==1.0.0
 graphviz==0.21
 greenlet==3.2.4
+gymnasium==1.1.1
 h11==0.16.0
 hyperopt==0.2.7
 idna==3.11
