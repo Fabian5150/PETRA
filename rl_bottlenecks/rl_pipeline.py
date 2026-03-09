@@ -12,7 +12,7 @@ from pre_processing.import_data import import_prosimos
 """
 Pipeline for running the q-learning on the inital log and returning the determined optimal path
 """
-def run_q_learning_pipeline(log, n_episodes = 4000, alpha = 0.1, gamma = 0.9):
+def run_q_learning_pipeline(log, n_episodes = 8000, alpha = 0.1, gamma = 0.9):
     print("--- Starting q-learning pipeline ---")    
     
     print("--- Extractin paths and bottleneck ---")
