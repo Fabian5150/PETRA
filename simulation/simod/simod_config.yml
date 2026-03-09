@@ -8,7 +8,7 @@ common:
     start_time: "start_date"
     end_time: "end_date"
   train_log_path: "42" # gets overwritten in python script
-  test_log_path: null # TODO: do train/test-split before
+  test_log_path: null
   perform_final_evaluation: false
 
 preprocessing:
@@ -36,5 +36,5 @@ resource:
   discover_batching_rules: true
 
 calendar:
-  discovery_type: "differentiated_by_resource" # undifferentiated, differentiated_by_pool
+  discovery_type: "differentiated"
   granularity: 60

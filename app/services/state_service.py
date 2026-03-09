@@ -7,6 +7,7 @@ from pm4py.objects.bpmn.layout import layouter
 BASE_DIR = Path(__file__).resolve().parents[2]
 kpi_file = BASE_DIR / "state" / "kpis.json"
 bpmn_file = BASE_DIR / "state" / "process-model.bpmn"
+sim_params_file = BASE_DIR /  "state" / "sim_params.json"
 optimal_path_file = BASE_DIR / "state" / "optimal-path.json"
 
 """
@@ -71,3 +72,12 @@ def load_optimal_path():
     with optimal_path_file.open("r", encoding="utf-8") as f:
         data = json.load(f)
     return data
+
+def load_sim_params():
+    with sim_params_file.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data
+
+def store_sim_params(kpis: dict):
+    with sim_params_file.open("w", encoding="utf-8") as f:
+        json.dump(kpis, f)
