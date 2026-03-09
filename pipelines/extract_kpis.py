@@ -16,22 +16,22 @@ def run_pipeline(data):
 
     cycle_time_metrics = get_cycle_time(cycle_times)
     throughput_metrics = get_throuput(cycle_times)
-    # rework_metrics = get_reworkrate(data) # need event log with start and end times
+    rework_metrics = get_reworkrate(data)
 
     performance_dfg = get_performance_dfg(data)
     bottleneck_metrics = get_bottlnecks(performance_dfg)
 
     ct_stability = get_ct_stability(cycle_times)
-    # at_stability = get_activity_time_stability(data) # need event log with start and end times
+    at_stability = get_activity_time_stability(data)
     path_stability = get_path_stability(data)
 
     kpi_dict = {
         "Cycle Time": cycle_time_metrics,
         "Throughput": throughput_metrics,
-        "Reworks": "tbd", # rework_metrics
+        "Reworks": rework_metrics,
         "Stability": {
             "Cycle Time Stability": ct_stability,
-            "Activity Time Stability": "tbd", # at_stability
+            "Activity Time Stability": at_stability,
             "Path Stability": path_stability
         },
         "Bottlenecks": bottleneck_metrics
