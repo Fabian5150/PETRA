@@ -8,6 +8,7 @@ from services.state_service import load_kpis, load_bpmn_str, store_bpmn_str, loa
 # wow, I hate python...
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from pipelines.simulate_get_kpis import run_pipeline as run_prosimos
+from pipelines.sim_rl import run_pipeline as run_rl_pathfinder
 
 router = APIRouter()
 
@@ -40,3 +41,14 @@ def set_current_process_model(bpmnString: str = Body(..., media_type="text/plain
     run_prosimos()
 
     return {"message": "Simulation done"}
+
+"""
+Blocks response until pathfinder is done
+"""
+@router.post("/pathfinder")
+def set_current_process_model(bpmnString: str = Body(..., media_type="text/plain")):
+    store_bpmn_str(bpmnString, layout = True)
+
+    run_rl_pathfinder()
+
+    return {"message": "Pathfinder done"}
