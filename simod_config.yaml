@@ -1,0 +1,43 @@
+version: 5
+common:
+  log_ids:
+    case: "case_id"
+    activity: "activity_key"
+    resource: "resource"
+    start_time: "start_date"
+    end_time: "end_date"
+  train_log_path: "data/bpi_2012/bpi_2012_approx_activity_times.csv"
+  test_log_path: null
+  perform_final_evaluation: false
+
+preprocessing:
+  enable_time_filtering: false
+  enable_outlier_filtering: false
+
+control_flow:
+  mining_algorithm: "sm1"
+  epsilon: 0.1
+  eta: 0.4
+  replace_or_joins: true
+
+optimization:
+  optimization_metric: "dl"
+  max_evaluations: 3
+  num_iterations: 3
+  gateway_probabilities: true
+
+simulation:
+  model_type: "BPMN"
+  num_instances: 500
+
+resource_model:
+  discovery_type: "differentiated"
+  granularity: 60
+
+resource:
+  discover_prioritization_rules: false
+  discover_batching_rules: false
+
+calendar:
+  discovery_type: "differentiated"
+  granularity: 60

@@ -5,6 +5,7 @@ from fastapi.responses import PlainTextResponse
 
 from services.state_service import load_kpis, load_bpmn_str, store_bpmn_str, load_optimal_path
 from services.resource_service import get_resource_data, set_resource_activities
+from services.state_service import load_bottleneck
 
 # wow, I hate python...
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -67,3 +68,10 @@ def update_resource_activity_mapping(mapping: dict = Body(...)):
     set_resource_activities(mapping)
 
     return {"message": "Resource activities updated"}
+
+@router.get("/bottleneck")
+def get_bottleneck():
+    """Returns bottleneck activity name"""
+    data = load_bottleneck()
+    
+    return {"bottleneck": data}

@@ -9,6 +9,7 @@ kpi_file = BASE_DIR / "state" / "kpis.json"
 bpmn_file = BASE_DIR / "state" / "process-model.bpmn"
 sim_params_file = BASE_DIR /  "state" / "sim_params.json"
 optimal_path_file = BASE_DIR / "state" / "optimal-path.json"
+bottleneck_file = BASE_DIR / "state" / "bottleneck.json"
 
 """
 Loads the kpis from their json state file
@@ -81,3 +82,14 @@ def load_resource_allocation():
 def store_sim_params(kpis: dict):
     with sim_params_file.open("w", encoding="utf-8") as f:
         json.dump(kpis, f)
+
+def store_bottleneck(bottleneck_name):
+    with bottleneck_file.open("w") as f:
+        json.dump({"bottleneck": bottleneck_name}, f, indent=2)
+
+def load_bottleneck():
+    if not bottleneck_file.exists():
+        return None
+    with bottleneck_file.open("r") as f:
+        data = json.load(f)
+    return data.get("bottleneck")
