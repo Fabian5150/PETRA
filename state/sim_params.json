@@ -166,10 +166,91 @@
             ]
         },
         {
-            "gateway_id": "node_35c45464-ffe4-4bb3-8baa-76350ae856b9",
+            "gateway_id": "node_7e139d2f-0e75-4f1f-93fe-4adee038be16",
             "probabilities": [
                 {
-                    "path_id": "node_c8006aac-6213-4dea-a765-13debd4994cf",
+                    "path_id": "node_217e9b6e-6bbc-4b50-b9fc-7395fd75f485",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_3b163f5d-f0b0-4841-ab54-a13cd7b53fbf",
+            "probabilities": [
+                {
+                    "path_id": "node_e3111f5f-b724-4acd-8219-82a17a9585a4",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_765f56b4-2a4c-4c80-b93b-863c2c75bcf1",
+            "probabilities": [
+                {
+                    "path_id": "node_eafc8d7d-61b0-4c10-bd25-c36f764d25af",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_54df6f58-53b9-4add-a364-f3cac8c9dd29",
+            "probabilities": [
+                {
+                    "path_id": "node_bc0a05dd-ec3a-4c13-9e78-52dc25d73932",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_395b5af4-0432-4634-b5a5-876d4d758a59",
+            "probabilities": [
+                {
+                    "path_id": "node_dd4d077b-aed9-4901-8769-734e54695441",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_12d9b29d-8939-45e9-8128-1418151cc21b",
+            "probabilities": [
+                {
+                    "path_id": "node_8c82bfd7-2fec-40be-90f0-0812e13f77a3",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_b6f8fd92-19de-47c2-9fe4-a5d33545452d",
+            "probabilities": [
+                {
+                    "path_id": "node_73a4ea90-f5d7-4501-93b5-9e7445844d2b",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_e0f763a8-8578-4080-b70d-ec5a92337091",
+            "probabilities": [
+                {
+                    "path_id": "node_d4c55131-8e3b-4df1-942a-09b90f3cb458",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_2910f34b-34e6-4bea-a348-95d8686bb73d",
+            "probabilities": [
+                {
+                    "path_id": "node_c348969f-06c0-4ca2-927e-3a588feb93f6",
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_4e84c9a5-81ca-41c8-9f7d-f164b2f20d5b",
+            "probabilities": [
+                {
+                    "path_id": "node_63a524cb-753f-41cb-a45a-28094ae84a8e",
                     "value": 1.0
                 }
             ]
@@ -193,37 +274,10 @@
             ]
         },
         {
-            "gateway_id": "node_b6f8fd92-19de-47c2-9fe4-a5d33545452d",
+            "gateway_id": "node_35c45464-ffe4-4bb3-8baa-76350ae856b9",
             "probabilities": [
                 {
-                    "path_id": "node_73a4ea90-f5d7-4501-93b5-9e7445844d2b",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_765f56b4-2a4c-4c80-b93b-863c2c75bcf1",
-            "probabilities": [
-                {
-                    "path_id": "node_eafc8d7d-61b0-4c10-bd25-c36f764d25af",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_4e84c9a5-81ca-41c8-9f7d-f164b2f20d5b",
-            "probabilities": [
-                {
-                    "path_id": "node_63a524cb-753f-41cb-a45a-28094ae84a8e",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_395b5af4-0432-4634-b5a5-876d4d758a59",
-            "probabilities": [
-                {
-                    "path_id": "node_dd4d077b-aed9-4901-8769-734e54695441",
+                    "path_id": "node_c8006aac-6213-4dea-a765-13debd4994cf",
                     "value": 1.0
                 }
             ]
@@ -234,73 +288,6 @@
                 {
                     "path_id": "node_f402961d-0bef-40ab-8ac4-c8ed96ba08dc",
                     "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_54df6f58-53b9-4add-a364-f3cac8c9dd29",
-            "probabilities": [
-                {
-                    "path_id": "node_bc0a05dd-ec3a-4c13-9e78-52dc25d73932",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_3b163f5d-f0b0-4841-ab54-a13cd7b53fbf",
-            "probabilities": [
-                {
-                    "path_id": "node_e3111f5f-b724-4acd-8219-82a17a9585a4",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_12d9b29d-8939-45e9-8128-1418151cc21b",
-            "probabilities": [
-                {
-                    "path_id": "node_8c82bfd7-2fec-40be-90f0-0812e13f77a3",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_e0f763a8-8578-4080-b70d-ec5a92337091",
-            "probabilities": [
-                {
-                    "path_id": "node_d4c55131-8e3b-4df1-942a-09b90f3cb458",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_7e139d2f-0e75-4f1f-93fe-4adee038be16",
-            "probabilities": [
-                {
-                    "path_id": "node_217e9b6e-6bbc-4b50-b9fc-7395fd75f485",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "node_2910f34b-34e6-4bea-a348-95d8686bb73d",
-            "probabilities": [
-                {
-                    "path_id": "node_c348969f-06c0-4ca2-927e-3a588feb93f6",
-                    "value": 1.0
-                }
-            ]
-        },
-        {
-            "gateway_id": "Gateway_1hdx7ea",
-            "probabilities": [
-                {
-                    "path_id": "Flow_0ldph34",
-                    "value": 0.5
-                },
-                {
-                    "path_id": "Flow_0vy5ei0",
-                    "value": 0.5
                 }
             ]
         }
@@ -513,7 +500,7 @@
                         "node_8527d545-d8e4-420d-8db5-aa6f30d126a5",
                         "node_5fd3159f-c2e4-417b-9575-02b4bb8142a6",
                         "node_6efa8494-49d0-4b5e-923f-5099507c147c",
-                        "Activity_0jw67ug"
+                        "Activity_1f0z2u6"
                     ]
                 },
                 {
@@ -20726,12 +20713,16 @@
             ]
         },
         {
-            "task_id": "Activity_0jw67ug",
-            "resource_id": "GLOBAL",
-            "distribution_name": "fix",
-            "distribution_params": [
+            "task_id": "Activity_1f0z2u6",
+            "resources": [
                 {
-                    "value": 3600.0
+                    "resource_id": "GLOBAL",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 3600.0
+                        }
+                    ]
                 }
             ]
         }

@@ -191,10 +191,14 @@ def sync_bpmn_to_sim_params(bpmn_string):
         if activity_id not in existing_task_distributions:
             sim_params['task_resource_distribution'].append({
                 "task_id": activity_id,
-                "resource_id": "GLOBAL",
-                "distribution_name": "fix",
-                "distribution_params": [
-                    {"value": 3600.0}  # 1 Stunde default
+                "resources": [
+                    {
+                        "resource_id": "GLOBAL",
+                        "distribution_name": "fix",
+                        "distribution_params": [
+                            {"value": 3600.0}
+                        ]
+                    }
                 ]
             })
     
@@ -203,4 +207,3 @@ def sync_bpmn_to_sim_params(bpmn_string):
         json.dump(sim_params, f, indent=4)
     
     print(f"✓ Synced {len(gateway_ids)} gateways and {len(activity_ids)} activities")
-
