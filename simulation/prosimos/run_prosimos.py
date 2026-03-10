@@ -3,8 +3,8 @@ from pathlib import Path
 import pandas as pd
 
 script_dir = Path(__file__).parent.parent.parent
-bpmn_path=script_dir / "state/simod_out/best_result/bpi_2012_approx_activity_times.bpmn"
-json_path=script_dir / "state/simod_out/best_result/bpi_2012_approx_activity_times.json"
+bpmn_path=script_dir / "state/simod_out/best_result/process-model.bpmn"
+json_path=script_dir / "state/simod_out/best_result/sim_params.json"
 output_csv=script_dir / "data/temp/prosimos_log.csv"
 
 def run_prosimos(num_cases: int = 1000):
