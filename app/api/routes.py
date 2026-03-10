@@ -3,7 +3,7 @@ from pathlib import Path
 from fastapi import APIRouter, Body
 from fastapi.responses import PlainTextResponse
 
-from services.state_service import load_kpis, load_bpmn_str, store_bpmn_str, load_optimal_path
+from services.state_service import load_kpis, load_bpmn_str, store_bpmn_str, load_optimal_path, sync_bpmn_to_sim_params
 from services.resource_service import get_resource_data, set_resource_activities
 from services.state_service import load_bottleneck
 
