@@ -73,10 +73,10 @@ def load_optimal_path():
         data = json.load(f)
     return data
 
-def load_sim_params():
+def load_resource_allocation():
     with sim_params_file.open("r", encoding="utf-8") as f:
         data = json.load(f)
-    return data
+    return data["resource_profiles"]
 
 def store_sim_params(kpis: dict):
     with sim_params_file.open("w", encoding="utf-8") as f:

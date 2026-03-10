@@ -4,6 +4,7 @@ from fastapi import APIRouter, Body
 from fastapi.responses import PlainTextResponse
 
 from services.state_service import load_kpis, load_bpmn_str, store_bpmn_str, load_optimal_path
+from services.resource_service import get_resource_activities, set_resource_activities
 
 # wow, I hate python...
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -52,3 +53,33 @@ def set_current_process_model(bpmnString: str = Body(..., media_type="text/plain
     run_rl_pathfinder()
 
     return {"message": "Pathfinder done"}
+
+
+@router.get("/resource-activities")
+def get_resource_activity_mapping():
+    """
+    Returns resource → activities mapping
+    
+    Response: {
+        "112.0": ["A_SUBMITTED", "A_ACCEPTED"],
+        "10912.0": ["W_Complete_application"],
+        ...
+    }
+    """
+    data = get_resource_activities()
+    return data
+
+
+@router.post("/resource-activities")
+def update_resource_activity_mapping(mapping: dict = Body(...)):
+    """
+    Updates resource → activities assignments
+    
+    Body: {
+        "112.0": ["A_SUBMITTED", "A_ACCEPTED"],
+        "10912.0": ["W_Complete_application"],
+        ...
+    }
+    """
+    set_resource_activities(mapping)
+    return {"message": "Resource activities updated"}
