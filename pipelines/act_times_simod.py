@@ -8,7 +8,7 @@ from simulation.simod.run_simod import run_my_simod
 from simulation.simod.simod_to_state import simod_to_state
 
 input_log_path = Path(__file__).parent.parent / "data" / "bpi_2012" / "bpi_2012_approx_activity_times.csv"
-simod_config_path = Path(__file__).parent.parent / "simulation" / "simod" / "simod_config.yml"
+simod_config_path = Path(__file__).parent.parent / "simulation" / "simod" / "ahh.yaml"
 simod_output_path = Path(__file__).parent.parent / "state" / "simod_out"
 
 def run_pipeline():

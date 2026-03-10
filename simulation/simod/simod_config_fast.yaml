@@ -1,5 +1,4 @@
 version: 5
-
 common:
   log_ids:
     case: "case_id"
@@ -7,7 +6,7 @@ common:
     resource: "resource"
     start_time: "start_date"
     end_time: "end_date"
-  train_log_path: "42" # gets overwritten in python script
+  train_log_path: "42"
   test_log_path: null
   perform_final_evaluation: false
 
@@ -16,29 +15,28 @@ preprocessing:
   enable_outlier_filtering: false
 
 control_flow:
-  mining_algorithm: "sm1" # split miner
+  mining_algorithm: "sm1"
   epsilon: 0.1
   eta: 0.4
   replace_or_joins: true
 
 optimization:
-  optimization_metric: "dl" # distance_log
-  max_evaluations: 10
-  num_iterations: 10
+  optimization_metric: "dl"
+  max_evaluations: 3
+  num_iterations: 3
   gateway_probabilities: true
 
 simulation:
   model_type: "BPMN"
-  num_instances: 1000
+  num_instances: 500
 
 resource_model:
-  discovery_type: undifferentiated
-  granularity:
-    - 60
+  discovery_type: "differentiated"
+  granularity: 60
 
 resource:
-  discover_prioritization_rules: true
-  discover_batching_rules: true
+  discover_prioritization_rules: false
+  discover_batching_rules: false
 
 calendar:
   discovery_type: "differentiated"
