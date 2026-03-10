@@ -23,7 +23,7 @@ common:
 preprocessing:
   multitasking: false
   enable_time_concurrency_threshold: 0.5
-  concurrency_df: 0.9
+  concurrency_df: 0.75
   concurrency_l2l: 0.9
   concurrency_l1l: 0.9
 control_flow:
@@ -32,9 +32,13 @@ control_flow:
   num_evaluations_per_iteration: 3
   gateway_probabilities: discovery
   mining_algorithm: sm1
-  epsilon: 0.1
-  eta: 0.4
-  replace_or_joins: true
+  epsilon: !!python/tuple
+  - 0.0
+  - 1.0
+  eta: !!python/tuple
+  - 0.0
+  - 1.0
+  replace_or_joins: false
   prioritize_parallelism: false
 resource_model:
   optimization_metric: circadian_event_distribution
