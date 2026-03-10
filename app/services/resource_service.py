@@ -77,3 +77,32 @@ def set_resource_activities(resource_activities, sim_params_path=sim_params_file
     
     with sim_params_path.open("w", encoding="utf-8") as f:
         json.dump(sim_params, f, indent=4)
+
+
+def get_all_activities(bpmn_path=bpmn_file):
+    bpmn = pm.read_bpmn(str(bpmn_path))
+    activities = [
+        node.get_name() 
+        for node in bpmn.get_nodes() 
+        if node.get_name()
+    ]
+    return sorted(set(activities))
+
+
+def get_all_resources(sim_params_path=sim_params_file):
+    resource_profiles = load_resource_allocation(sim_params_path)
+    resources = []
+    
+    for profile in resource_profiles:
+        for resource in profile.get('resource_list', []):
+            resources.append(resource['name'])
+    
+    return sorted(set(resources))
+
+
+def get_resource_data(sim_params_path=sim_params_file, bpmn_path=bpmn_file):
+    return {
+        "activities": get_all_activities(bpmn_path),
+        "resources": get_all_resources(sim_params_path),
+        "resourceActivities": get_resource_activities(sim_params_path, bpmn_path)
+    }
