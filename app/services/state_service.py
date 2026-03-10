@@ -43,7 +43,7 @@ def load_bpmn_str():
 Stores a pm4py bpmn object in the bpmn state file as standardized bpmn 2.0 xml
 Can adjust its' layout
 """
-def store_bpmn_obj(process_model: BPMN, layout = True):
+def store_bpmn_obj(process_model: BPMN, layout = False):
     if(layout):
         process_model = layouter.apply(process_model)
     
@@ -53,7 +53,7 @@ def store_bpmn_obj(process_model: BPMN, layout = True):
 Stores a bpmn xml string directly in the bpmn state file
 Can adjust its' layout
 """
-def store_bpmn_str(bpmn_string: str, layout = True):
+def store_bpmn_str(bpmn_string: str, layout = False):
     bpmn_file.write_text(bpmn_string, encoding="utf-8")
 
     if(layout):

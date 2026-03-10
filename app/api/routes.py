@@ -38,7 +38,7 @@ Blocks response until prosimos is done
 """
 @router.post("/process-model-simulation")
 def set_current_process_model(bpmnString: str = Body(..., media_type="text/plain")):
-    store_bpmn_str(bpmnString, layout = True)
+    store_bpmn_str(bpmnString)
 
     run_prosimos()
 
@@ -49,7 +49,7 @@ Blocks response until pathfinder is done
 """
 @router.post("/pathfinder")
 def set_current_process_model(bpmnString: str = Body(..., media_type="text/plain")):
-    store_bpmn_str(bpmnString, layout = True)
+    store_bpmn_str(bpmnString)
 
     run_rl_pathfinder()
 
