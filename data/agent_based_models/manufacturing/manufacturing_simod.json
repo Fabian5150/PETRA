@@ -1,0 +1,5810 @@
+{
+    "process_model": "/home/fabian/gitProjects/uni/ba/fucking-simod/best_result/manufacturing_simod.bpmn",
+    "gateway_branching_probabilities": [
+        {
+            "gateway_id": "node_10ef98f2-677d-4093-b249-6fd2a2aed2a3",
+            "probabilities": [
+                {
+                    "path_id": "node_8cb6614e-4352-44c7-bc58-a113c70b7616",
+                    "value": 0.2830188679245283
+                },
+                {
+                    "path_id": "node_8137d31b-b5fe-48f5-8443-98288009128f",
+                    "value": 0.7169811320754716
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_d7d425f4-bbcd-42f1-9acc-c22ee47bbe12",
+            "probabilities": [
+                {
+                    "path_id": "node_b9e1e9d5-88fc-4933-90c0-a1010e64e8c7",
+                    "value": 0.14285714285714285
+                },
+                {
+                    "path_id": "node_a2679b5b-912a-449c-b1f5-f57d78db07be",
+                    "value": 0.8571428571428571
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_4a404909-c157-4ead-a497-dea0544e9cff",
+            "probabilities": [
+                {
+                    "path_id": "node_790f99b1-8943-441d-8bdd-5d381907398c",
+                    "value": 0.7763157894736842
+                },
+                {
+                    "path_id": "node_8c574cae-0e59-4a51-a650-b5ca188d6c18",
+                    "value": 0.2236842105263158
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_3aa4778e-39e2-4e02-84b0-d415cd22c0cc",
+            "probabilities": [
+                {
+                    "path_id": "node_29686d4d-dd33-4d9d-bb26-4eea6bdc5c06",
+                    "value": 0.9444444444444444
+                },
+                {
+                    "path_id": "node_a4561e28-3cdd-44f9-8389-a1c44a8b525f",
+                    "value": 0.05555555555555555
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_fe60a40a-d628-4233-b5e5-738641117abc",
+            "probabilities": [
+                {
+                    "path_id": "node_74da85b2-dd66-42ce-b93a-f43ad401752d",
+                    "value": 0.01
+                },
+                {
+                    "path_id": "node_ece896a1-f70a-4be5-82ac-d52baba8fdbe",
+                    "value": 0.99
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_d2b21463-547f-4327-b267-74d0ba574a4a",
+            "probabilities": [
+                {
+                    "path_id": "node_3abaac48-0e18-4798-9b77-e6982770aeb6",
+                    "value": 0.4
+                },
+                {
+                    "path_id": "node_eb5dfaf0-aed1-48de-993f-43a2b08e8a0a",
+                    "value": 0.6
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_a0143272-bad4-4456-bc84-005b56c5c9c1",
+            "probabilities": [
+                {
+                    "path_id": "node_8cc83999-8855-4e55-8cf2-933737ec2ec9",
+                    "value": 0.5
+                },
+                {
+                    "path_id": "node_6bcf75ba-57e4-4533-8421-82766cfc0b7a",
+                    "value": 0.5
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_14778e65-e303-45e6-a50f-44958d15ef5d",
+            "probabilities": [
+                {
+                    "path_id": "node_f2d27637-cbde-4f36-afe0-e3851e86811a",
+                    "value": 0.99
+                },
+                {
+                    "path_id": "node_6269ecc4-4c29-4f7c-b2b8-f449989f54ad",
+                    "value": 0.01
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_45742e9e-93dc-4296-afe4-9c6f2274f896",
+            "probabilities": [
+                {
+                    "path_id": "node_c60ccaae-8760-4f94-a2f1-e6934e4cfc26",
+                    "value": 0.6342412451361867
+                },
+                {
+                    "path_id": "node_b9e8a9ab-e219-4b5a-be5b-01624940d4f9",
+                    "value": 0.3657587548638132
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_fa892f3a-f800-4ec8-863d-88cd7d316121",
+            "probabilities": [
+                {
+                    "path_id": "node_82e9535a-2ca4-406c-bd7a-360ad464235d",
+                    "value": 0.16666666666666666
+                },
+                {
+                    "path_id": "node_f60265c4-ad79-4896-87a9-730817e13a7d",
+                    "value": 0.07407407407407407
+                },
+                {
+                    "path_id": "node_36b24cf7-cf60-4a79-aa68-d39052b26f18",
+                    "value": 0.2777777777777778
+                },
+                {
+                    "path_id": "node_589d7aac-adf8-40d8-9f31-5e3c4aeb34d2",
+                    "value": 0.48148148148148145
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_7824e095-8e54-4f98-8ad8-dc32c3ee6caf",
+            "probabilities": [
+                {
+                    "path_id": "node_4f490456-b027-47b6-8883-62c60f74a7a2",
+                    "value": 0.7142857142857143
+                },
+                {
+                    "path_id": "node_e2f6d6dd-a885-47eb-b37c-e5ea07c1e5c4",
+                    "value": 0.2857142857142857
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_6ec787ed-5f88-4516-8aeb-c56a8e78b9e2",
+            "probabilities": [
+                {
+                    "path_id": "node_15218b3e-c50e-4c94-8f30-4c82da05b34b",
+                    "value": 0.3872053872053872
+                },
+                {
+                    "path_id": "node_08483c4a-398e-4e7e-8239-3a82be5b3f29",
+                    "value": 0.6127946127946128
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_c234f54f-c89f-4efb-a85e-01187f2750de",
+            "probabilities": [
+                {
+                    "path_id": "node_3b2dce21-3e68-4e38-956a-974318e5295e",
+                    "value": 0.99
+                },
+                {
+                    "path_id": "node_b4ff2ca2-edbb-4e4e-8029-a614cc155f08",
+                    "value": 0.01
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_94e9519c-23d4-4cad-add2-0a89b01c16d4",
+            "probabilities": [
+                {
+                    "path_id": "node_921b3c29-87b7-4308-87c5-4b2a4603e882",
+                    "value": 0.3333333333333333
+                },
+                {
+                    "path_id": "node_f4b702f7-55e9-479f-a9d7-da66fae1c372",
+                    "value": 0.6666666666666666
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_225e3718-84da-4332-949a-6c0a852e6a83",
+            "probabilities": [
+                {
+                    "path_id": "node_5b60430b-4674-422b-81fa-6ae67f562ecf",
+                    "value": 0.02564102564102564
+                },
+                {
+                    "path_id": "node_1ebc0ff1-ee52-40f0-934d-eb158ff4c196",
+                    "value": 0.6923076923076923
+                },
+                {
+                    "path_id": "node_a18204ea-973d-40e4-ba1f-3841500fe4bc",
+                    "value": 0.28205128205128205
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_38e45843-ed5b-4528-a2d5-c9458f2ba65f",
+            "probabilities": [
+                {
+                    "path_id": "node_a1299570-661c-4c03-90b2-b7ef4dcae545",
+                    "value": 0.9875
+                },
+                {
+                    "path_id": "node_0e62d643-5663-47a5-a507-223c0a735175",
+                    "value": 0.0125
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_89576e6f-26ef-4ddf-9e6b-d898c75c8cdb",
+            "probabilities": [
+                {
+                    "path_id": "node_ebf4394c-1ab6-481f-b6ee-e56c66eb5f8e",
+                    "value": 0.7022900763358778
+                },
+                {
+                    "path_id": "node_cc80357a-2a2c-456c-b0c4-92b0e949e370",
+                    "value": 0.29770992366412213
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_690a084c-df7d-4770-ae38-485fa36138d9",
+            "probabilities": [
+                {
+                    "path_id": "node_48818c25-268d-4f04-8e29-32f89463b085",
+                    "value": 0.005649717514124294
+                },
+                {
+                    "path_id": "node_235800df-4ecd-4353-9677-b87967555256",
+                    "value": 0.9943502824858758
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_3bc397fc-1799-4183-8998-45296ecd9d34",
+            "probabilities": [
+                {
+                    "path_id": "node_3bdeb047-ccc1-4239-8c2c-0ccea58d07aa",
+                    "value": 0.7378640776699029
+                },
+                {
+                    "path_id": "node_305d4f9b-389b-4f5d-9162-d8c8ddd1a9e4",
+                    "value": 0.2621359223300971
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_8ff56a68-543a-4c72-9e92-b8981fb636d9",
+            "probabilities": [
+                {
+                    "path_id": "node_9a4f691a-1b66-4bd3-bdab-1b4bcbe71462",
+                    "value": 0.3125
+                },
+                {
+                    "path_id": "node_d0ec4d31-cab3-4550-b8ea-4abc0b332280",
+                    "value": 0.6875
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_7c55d3c5-b3d3-418c-a7cb-e6b75be1e777",
+            "probabilities": [
+                {
+                    "path_id": "node_b985554d-521b-4d32-893e-5970686f2b92",
+                    "value": 0.9583333333333334
+                },
+                {
+                    "path_id": "node_a9dfb706-77bb-45a4-8695-66a0e50af775",
+                    "value": 0.041666666666666664
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_84c48aaf-a2d5-4d30-bb67-3add32442fe6",
+            "probabilities": [
+                {
+                    "path_id": "node_b9d38fca-823a-4056-8fda-54aca1a1dd1f",
+                    "value": 0.03296703296703297
+                },
+                {
+                    "path_id": "node_eb1763b4-5686-4cdf-a001-14f240f316ea",
+                    "value": 0.4065934065934066
+                },
+                {
+                    "path_id": "node_b9f72a2d-3614-4678-b6e2-e73681f51864",
+                    "value": 0.5604395604395604
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_d10ac347-55fa-4339-885b-730b07a70bd0",
+            "probabilities": [
+                {
+                    "path_id": "node_dafff56a-fee5-46c2-b1a6-cc8c96277e5e",
+                    "value": 0.41379310344827586
+                },
+                {
+                    "path_id": "node_b6a8cad5-5197-429c-8dae-073ab5b1f0d3",
+                    "value": 0.034482758620689655
+                },
+                {
+                    "path_id": "node_ae4ab0c6-5fc5-4cc7-9d54-1a27fd52dbad",
+                    "value": 0.017241379310344827
+                },
+                {
+                    "path_id": "node_c15dc0e5-4e3b-408c-ab15-113dec82c095",
+                    "value": 0.017241379310344827
+                },
+                {
+                    "path_id": "node_f63034b3-545c-4805-bb37-1bfe8cbb8614",
+                    "value": 0.1724137931034483
+                },
+                {
+                    "path_id": "node_d8abfe96-d372-422d-8eda-b80a1599cc69",
+                    "value": 0.017241379310344827
+                },
+                {
+                    "path_id": "node_4b2b76c4-9080-4ff1-9401-a27c637fe5bf",
+                    "value": 0.034482758620689655
+                },
+                {
+                    "path_id": "node_67fd9510-08b5-4b55-b2ff-625781ee4972",
+                    "value": 0.22413793103448276
+                },
+                {
+                    "path_id": "node_2a9ade0c-98ac-4990-a53a-6fc0624c0acc",
+                    "value": 0.05172413793103448
+                },
+                {
+                    "path_id": "node_b8191779-e857-4f17-8f49-5c51067caae8",
+                    "value": 0.017241379310344827
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_53529a12-5fa3-4f84-8aa5-05ab8c1d36d1",
+            "probabilities": [
+                {
+                    "path_id": "node_b6d1c7bf-fa9b-409e-adf9-03cebd4a1126",
+                    "value": 0.4
+                },
+                {
+                    "path_id": "node_66edac6f-8cc8-489a-9614-734d55726b4a",
+                    "value": 0.6
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_a844a979-a3d4-4f87-ac4b-f1ee937ebf35",
+            "probabilities": [
+                {
+                    "path_id": "node_5783f512-a76c-4605-abf5-75627a745857",
+                    "value": 0.005246376811594203
+                },
+                {
+                    "path_id": "node_ee40c1f7-d493-458f-9aa5-20d029f5c334",
+                    "value": 0.8675652173913043
+                },
+                {
+                    "path_id": "node_d46f9527-c8ca-4d1f-9fd5-dbac647f5494",
+                    "value": 0.005246376811594203
+                },
+                {
+                    "path_id": "node_fde179a8-c448-4992-a88f-f6c36d574c71",
+                    "value": 0.09944927536231885
+                },
+                {
+                    "path_id": "node_19ddc626-296b-4027-8133-b6833e98495e",
+                    "value": 0.01
+                },
+                {
+                    "path_id": "node_cad152e7-e56e-4bc6-8aa2-dbe5a97ab2c1",
+                    "value": 0.012492753623188406
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_41ac0781-af6c-48ec-bd4e-441a78aa1574",
+            "probabilities": [
+                {
+                    "path_id": "node_ca207a19-7e16-4ac5-84c3-2b1dd905d7b2",
+                    "value": 0.014084507042253521
+                },
+                {
+                    "path_id": "node_f0dad69c-455f-4a2d-acba-e27ffc3c7584",
+                    "value": 0.056338028169014086
+                },
+                {
+                    "path_id": "node_376cf062-e666-4f82-914c-f688ee8b149e",
+                    "value": 0.04225352112676056
+                },
+                {
+                    "path_id": "node_75f9479e-067e-44f3-a94b-f5ca4f83708c",
+                    "value": 0.8732394366197183
+                },
+                {
+                    "path_id": "node_e3ace077-1868-4ef0-96e9-6e56376e73c8",
+                    "value": 0.014084507042253521
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_d9fd2a9b-1da5-4c44-a96e-84a2f22ca685",
+            "probabilities": [
+                {
+                    "path_id": "node_a2b3a874-f6c7-40b6-924e-82e986799016",
+                    "value": 0.88
+                },
+                {
+                    "path_id": "node_09b08f89-ee4b-4925-8dde-c6ac94580f07",
+                    "value": 0.12
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_ee26b5e2-72a3-4b52-ba83-a1331c75df14",
+            "probabilities": [
+                {
+                    "path_id": "node_5cecb863-32cd-4646-8349-98601091fbd1",
+                    "value": 0.01
+                },
+                {
+                    "path_id": "node_b5b9b805-db8a-4e53-9437-9ac93ce34e00",
+                    "value": 0.4293181818181818
+                },
+                {
+                    "path_id": "node_47fd99e0-4aff-4ced-80a4-e9a6cc4553ba",
+                    "value": 0.042954545454545454
+                },
+                {
+                    "path_id": "node_6f022781-0090-4939-9435-91514e50e2e9",
+                    "value": 0.45204545454545453
+                },
+                {
+                    "path_id": "node_0966011c-b9c4-4307-89a2-4df04fb13789",
+                    "value": 0.06568181818181817
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_04a2873a-1d41-45c0-9b26-e46b4058427e",
+            "probabilities": [
+                {
+                    "path_id": "node_4eece8ee-88c6-4e54-865e-9fd863a4e90d",
+                    "value": 0.8283333333333334
+                },
+                {
+                    "path_id": "node_8f7474eb-7f2a-4145-8d97-0e55da47257e",
+                    "value": 0.16166666666666665
+                },
+                {
+                    "path_id": "node_ac6fbea3-75da-4119-bc5e-e996f2dbcb9e",
+                    "value": 0.01
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_bb66aab8-b19f-4eb4-b1aa-c36200fe8f15",
+            "probabilities": [
+                {
+                    "path_id": "node_c40e1772-c509-4b81-9735-5608aa0b812b",
+                    "value": 0.5873959571938169
+                },
+                {
+                    "path_id": "node_4f5dbf39-582c-4a02-8301-a2b21bcd7f53",
+                    "value": 0.4126040428061831
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_55179d2b-78a9-41d5-a32c-3787b40f1bb7",
+            "probabilities": [
+                {
+                    "path_id": "node_ba7d71e4-c4fc-49ea-93c7-fcba29179904",
+                    "value": 0.6122448979591837
+                },
+                {
+                    "path_id": "node_2d999815-ca4b-4e0d-af26-09378a2864ef",
+                    "value": 0.3877551020408163
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_f7e23c74-94e1-4a31-a05e-c1c9b8ed36c7",
+            "probabilities": [
+                {
+                    "path_id": "node_d43ec901-1628-4314-ae69-51c13d2876ac",
+                    "value": 0.4226190476190476
+                },
+                {
+                    "path_id": "node_22166854-0afa-421d-935a-fc67f14cc2e7",
+                    "value": 0.5773809523809523
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_ca331b23-df57-466f-976f-c8bf090970eb",
+            "probabilities": [
+                {
+                    "path_id": "node_b8f453e4-19b9-4e76-a671-52737ede860b",
+                    "value": 0.4116666666666667
+                },
+                {
+                    "path_id": "node_7af9d6e3-6c4e-4abc-8cf2-eba99e3ca2ce",
+                    "value": 0.5783333333333334
+                },
+                {
+                    "path_id": "node_7b0a7ded-4dd8-4b86-8ced-33cc679b7112",
+                    "value": 0.01
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_896e21e3-b2f3-48de-91b7-76f16f5578cc",
+            "probabilities": [
+                {
+                    "path_id": "node_e3f40316-1600-4154-8a28-925a906e7e77",
+                    "value": 0.782608695652174
+                },
+                {
+                    "path_id": "node_0ec52886-0be1-4c74-8985-2176f217d2f0",
+                    "value": 0.21739130434782608
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_4d90a800-6087-4c23-aa31-2f219b6b5aac",
+            "probabilities": [
+                {
+                    "path_id": "node_2afbc213-a679-464d-afa2-1af4f9f51587",
+                    "value": 0.5
+                },
+                {
+                    "path_id": "node_30b03378-1f26-4dcc-8080-17266f2575cb",
+                    "value": 0.5
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_7bbf9ffc-ce19-431b-a6cb-3472c382e624",
+            "probabilities": [
+                {
+                    "path_id": "node_a1573cb2-6e8a-446e-988b-e1d971dfe815",
+                    "value": 0.9487179487179487
+                },
+                {
+                    "path_id": "node_fa6fe1a3-5b76-4091-8a4d-816e4ea0a583",
+                    "value": 0.05128205128205128
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_93e9e395-3b3a-47c7-92db-941ab5ca5550",
+            "probabilities": [
+                {
+                    "path_id": "node_3fbb15f8-6d91-4231-8deb-cfa930f64827",
+                    "value": 0.04929577464788732
+                },
+                {
+                    "path_id": "node_8c923d55-3c5a-432a-916b-9ff87c57cde6",
+                    "value": 0.035211267605633804
+                },
+                {
+                    "path_id": "node_9f0a040e-26cf-4529-ba5f-ced1228b13f7",
+                    "value": 0.3732394366197183
+                },
+                {
+                    "path_id": "node_a742aa1f-6dd9-4ddd-98ce-d9e9ecf3cbef",
+                    "value": 0.5422535211267606
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_802f167d-56f0-4b10-b528-c20db557f7ea",
+            "probabilities": [
+                {
+                    "path_id": "node_5c910a8b-1cd1-48af-94ea-128bd8b121b5",
+                    "value": 0.11764705882352941
+                },
+                {
+                    "path_id": "node_575d379d-7393-4a62-85f2-3279e5203c8b",
+                    "value": 0.8823529411764706
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_bd2e1115-c23a-476b-89de-c6c694f978e4",
+            "probabilities": [
+                {
+                    "path_id": "node_f872219e-0814-4c6c-9e95-09a207b71ac8",
+                    "value": 0.01
+                },
+                {
+                    "path_id": "node_4045826f-3665-429d-8cd6-10b1eb12cc1c",
+                    "value": 0.99
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_624374cb-90c7-4edf-af16-8bed6ed2478e",
+            "probabilities": [
+                {
+                    "path_id": "node_15e10ab3-fac5-4ae7-82a0-79d8bb98f6bd",
+                    "value": 0.5
+                },
+                {
+                    "path_id": "node_ae7ac3c8-369d-428c-9181-729fd7271762",
+                    "value": 0.5
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_70b48796-8f45-4db9-b03f-ca2b6379c524",
+            "probabilities": [
+                {
+                    "path_id": "node_1b475215-f4ef-45ae-969e-cb8142ea9a0a",
+                    "value": 0.8
+                },
+                {
+                    "path_id": "node_57de7ce1-fed0-4741-b06a-9676c8567ea7",
+                    "value": 0.2
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_b115eb2e-597c-4d7b-b33f-c5a5d76fb225",
+            "probabilities": [
+                {
+                    "path_id": "node_07bc8c20-b65e-432a-bd28-c92a37f1c62e",
+                    "value": 0.5833333333333334
+                },
+                {
+                    "path_id": "node_f8dda3b8-2435-4f89-934c-65ff808169ca",
+                    "value": 0.4166666666666667
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_39182182-659a-4338-af5c-56720bc03af0",
+            "probabilities": [
+                {
+                    "path_id": "node_fd369158-ecf2-4787-9329-4b64df1c47a0",
+                    "value": 0.19272727272727272
+                },
+                {
+                    "path_id": "node_b5352176-f0fa-494a-872e-59b8ad5e28a7",
+                    "value": 0.8072727272727273
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_a66b5bd2-90a8-4308-8e15-c21945a3cd0b",
+            "probabilities": [
+                {
+                    "path_id": "node_acd4a94d-c2b2-46ee-af91-31dc02a53b4a",
+                    "value": 0.14885496183206107
+                },
+                {
+                    "path_id": "node_16049369-fe37-4474-9a00-0ff800328afd",
+                    "value": 0.851145038167939
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_89be21de-edc9-477d-8b2d-b70f4f1abc29",
+            "probabilities": [
+                {
+                    "path_id": "node_8e729455-e766-4093-853f-939d73c80178",
+                    "value": 0.25
+                },
+                {
+                    "path_id": "node_37b76dbb-5425-4e74-a7da-104b90c21778",
+                    "value": 0.75
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_b2866d0c-6461-43d0-9f56-ab9725f83ab0",
+            "probabilities": [
+                {
+                    "path_id": "node_5211a717-ca1e-4324-9203-f2a05a36dbf1",
+                    "value": 0.16666666666666666
+                },
+                {
+                    "path_id": "node_ae853ffa-d659-4d35-8c2c-c204db5adac6",
+                    "value": 0.8333333333333334
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_a037c7b8-363e-465d-b763-ebb315b7bfc4",
+            "probabilities": [
+                {
+                    "path_id": "node_5aba3885-9622-4cc8-8e3f-f6ca53ad2a83",
+                    "value": 0.01
+                },
+                {
+                    "path_id": "node_8a885182-a392-47df-a577-0f735fc99c31",
+                    "value": 0.99
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_eea49e6f-be4c-449f-911d-5c441dbb35bd",
+            "probabilities": [
+                {
+                    "path_id": "node_8a60ba85-c14a-4513-8909-2c3fdc5a7d91",
+                    "value": 0.5948275862068966
+                },
+                {
+                    "path_id": "node_512bbb59-7755-4b47-9b53-9870fc99be9d",
+                    "value": 0.4051724137931034
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_053bf246-26a8-4bf6-868a-6e3e65aeeac0",
+            "probabilities": [
+                {
+                    "path_id": "node_65047fe2-5bd0-4252-9a06-f13f1329c7c0",
+                    "value": 0.058823529411764705
+                },
+                {
+                    "path_id": "node_0cccf013-f70c-4ba2-b84e-590d28756a3a",
+                    "value": 0.9411764705882353
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_51fa3a63-f695-44a9-96cf-c8e32468e4ad",
+            "probabilities": [
+                {
+                    "path_id": "node_2cbe5910-6036-4000-9058-a5b45e03f38e",
+                    "value": 0.25
+                },
+                {
+                    "path_id": "node_5b1b8d4f-e292-4636-a535-c652d789c9a9",
+                    "value": 0.75
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_17872e20-0c04-4cb9-97f3-2ffcc2b706a4",
+            "probabilities": [
+                {
+                    "path_id": "node_44250aa2-8268-4819-b316-a9e0a8549d09",
+                    "value": 0.1383399209486166
+                },
+                {
+                    "path_id": "node_31e746cc-0cd9-4ac0-bcaa-e10915a11ecb",
+                    "value": 0.8616600790513834
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_93261f91-aade-419b-8873-314ccc319728",
+            "probabilities": [
+                {
+                    "path_id": "node_f8cdb0a7-9f98-4454-a46b-0164504306e5",
+                    "value": 0.3393939393939394
+                },
+                {
+                    "path_id": "node_7553e666-854d-4ba3-8308-cfcbedc1d3b1",
+                    "value": 0.6606060606060606
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_43da50a4-97aa-4859-805e-40f1cc6ab076",
+            "probabilities": [
+                {
+                    "path_id": "node_2541df0f-4e10-4dbb-950d-d475c6e13e96",
+                    "value": 0.19047619047619047
+                },
+                {
+                    "path_id": "node_ab7f21a8-e373-4a6b-83ef-855ccb46a7b5",
+                    "value": 0.8095238095238095
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_741c203f-8cc1-4a95-8f7e-e826743b48d9",
+            "probabilities": [
+                {
+                    "path_id": "node_20ac1a21-4ed1-47c7-bf97-0d699739eae7",
+                    "value": 0.11952191235059761
+                },
+                {
+                    "path_id": "node_f2b0227c-d150-43bd-8432-f76be6ebf5c0",
+                    "value": 0.8804780876494024
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_daec4bf7-72ef-4b62-b887-85a5e3890e69",
+            "probabilities": [
+                {
+                    "path_id": "node_e3f4c1b5-a55f-4bb7-ba1f-8a99be2d4de5",
+                    "value": 0.0958904109589041
+                },
+                {
+                    "path_id": "node_7af08ad1-80e8-4529-a2f5-4b7e4191e19f",
+                    "value": 0.9041095890410958
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_7bb53297-71af-4fef-b208-5b69a8d8441c",
+            "probabilities": [
+                {
+                    "path_id": "node_40f64b0f-4628-424a-91db-3962c5e5f1ae",
+                    "value": 0.14285714285714285
+                },
+                {
+                    "path_id": "node_a6191f55-7b6f-4ca5-8373-76eef92d3a24",
+                    "value": 0.8571428571428571
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_19f73a2b-3d45-4086-a877-08cb674f21bf",
+            "probabilities": [
+                {
+                    "path_id": "node_fe8d69e5-c8d3-4294-b480-7256e1ced1c2",
+                    "value": 0.11258278145695365
+                },
+                {
+                    "path_id": "node_3adb2e2d-5623-4f12-a7b7-82c032cb0da9",
+                    "value": 0.8874172185430463
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_37a08c7c-d87f-4419-af45-4030a253524b",
+            "probabilities": [
+                {
+                    "path_id": "node_c0808c2e-c085-4150-8321-d61fc6db119f",
+                    "value": 0.01
+                },
+                {
+                    "path_id": "node_9adb8997-01f5-4e78-8227-b712ee55229f",
+                    "value": 0.99
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_ab45c420-6e62-4777-a6d1-74a4b23a0c92",
+            "probabilities": [
+                {
+                    "path_id": "node_57b03680-2da4-4bf5-a672-b9cc9e94241a",
+                    "value": 0.42592592592592593
+                },
+                {
+                    "path_id": "node_f3b391c4-927a-45e0-b24a-1c977479e651",
+                    "value": 0.5740740740740741
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_0d49d5af-8ffa-4788-b5f4-4391ba91f70a",
+            "probabilities": [
+                {
+                    "path_id": "node_aa8f97e1-4ee7-4d17-873a-e51074d19345",
+                    "value": 0.3786127167630058
+                },
+                {
+                    "path_id": "node_402388a7-7200-4f09-9ccb-e39045dd925c",
+                    "value": 0.6213872832369942
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_f4dc6c7d-fbff-4f31-b5f5-12420208549c",
+            "probabilities": [
+                {
+                    "path_id": "node_89610f34-b0e7-4250-b5f8-cfe1fa1c7b34",
+                    "value": 0.5
+                },
+                {
+                    "path_id": "node_75f04828-b83b-45fc-8db1-78aea4d8ecdf",
+                    "value": 0.5
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_88079f4f-06ce-4190-b5f7-b8dc12b2c326",
+            "probabilities": [
+                {
+                    "path_id": "node_808fe82f-263c-40ad-8259-bf1fbf5d0b68",
+                    "value": 0.2
+                },
+                {
+                    "path_id": "node_c2c80508-bdd4-4e6c-971a-402bb967f299",
+                    "value": 0.8
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_00403e5a-c728-44c4-8a05-70fc5f1ec3d8",
+            "probabilities": [
+                {
+                    "path_id": "node_152f1330-2bca-4d72-8079-7da8d999f97d",
+                    "value": 0.6285714285714286
+                },
+                {
+                    "path_id": "node_9eee0e85-7ef6-451b-a8e5-ade9f4ec0098",
+                    "value": 0.37142857142857144
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_5dfdddcb-46f6-419f-8237-6c533ddd49fd",
+            "probabilities": [
+                {
+                    "path_id": "node_2da298f8-a496-497f-923b-27f0e79b3f03",
+                    "value": 0.15079365079365079
+                },
+                {
+                    "path_id": "node_26e10e66-584b-4ec5-8449-19d50e97cae9",
+                    "value": 0.8492063492063492
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_e3b4c5dc-8af0-4ca5-b8f1-72abe65497cc",
+            "probabilities": [
+                {
+                    "path_id": "node_ff0ca8a3-559b-4d30-8640-9211bb4d0d64",
+                    "value": 0.2857142857142857
+                },
+                {
+                    "path_id": "node_4e04cbf2-d8de-48a7-bbfa-8e748bd99bc6",
+                    "value": 0.7142857142857143
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_27413af1-9d92-4b19-9b13-e65b423c6926",
+            "probabilities": [
+                {
+                    "path_id": "node_73f2e44f-25e4-4ce1-a72d-da0903a4a84d",
+                    "value": 0.7803030303030303
+                },
+                {
+                    "path_id": "node_4afda32a-888b-463b-9f39-8fa82a11233e",
+                    "value": 0.2196969696969697
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_3ed2e9f3-f887-4bcc-bf4b-e27bcd6283dd",
+            "probabilities": [
+                {
+                    "path_id": "node_18df6acd-18a5-4b23-add1-f657a83444ad",
+                    "value": 0.32181818181818184
+                },
+                {
+                    "path_id": "node_35053051-20e0-46a8-b955-faceca9fbe93",
+                    "value": 0.6781818181818182
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_99b711a8-1966-4447-ad2d-c87a3f430f9d",
+            "probabilities": [
+                {
+                    "path_id": "node_05cfd457-d0d1-47e4-95f7-6b2439008cb3",
+                    "value": 0.5
+                },
+                {
+                    "path_id": "node_e1f4340d-c0e2-499d-8ae8-8f765442c870",
+                    "value": 0.5
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_59096c22-d176-4496-ab3c-acabb922f51a",
+            "probabilities": [
+                {
+                    "path_id": "node_6ab09a03-3c3a-4ba1-b912-9ce2b8f5ddd0",
+                    "value": 0.32051282051282054
+                },
+                {
+                    "path_id": "node_14a0d8e6-d06e-436b-92b7-a58f6a66fc99",
+                    "value": 0.6794871794871795
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_f8943ac1-4c9d-46fb-a1b4-e77e2b9e7cb3",
+            "probabilities": [
+                {
+                    "path_id": "node_58ea1189-26de-4325-89b5-2ab75a9397c6",
+                    "value": 0.32432432432432434
+                },
+                {
+                    "path_id": "node_8e29075d-3185-4165-80b6-7f24a43cdb2a",
+                    "value": 0.6756756756756757
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_69bf7acb-00ee-423d-9d17-ced5b3e0151b",
+            "probabilities": [
+                {
+                    "path_id": "node_e3c87c77-2481-4c80-9576-c4b86ce18819",
+                    "value": 0.25
+                },
+                {
+                    "path_id": "node_f43bedf1-859f-4d0b-8677-1f1a42c1d89b",
+                    "value": 0.75
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_980819cc-1ae9-4e86-9c73-1f9e29f8cea6",
+            "probabilities": [
+                {
+                    "path_id": "node_308cdc15-de42-49a5-aa64-6c61370eba20",
+                    "value": 0.1360544217687075
+                },
+                {
+                    "path_id": "node_47f42a55-dd73-4361-a25c-fdb106c7fe01",
+                    "value": 0.8639455782312925
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_1ec193f8-9ac0-4a37-a77e-0a15161e7c49",
+            "probabilities": [
+                {
+                    "path_id": "node_7451bfc9-8c21-40fa-9c2e-d99c93a2afda",
+                    "value": 0.5
+                },
+                {
+                    "path_id": "node_781ce7f6-3c50-4c9b-807a-23199d5819f8",
+                    "value": 0.5
+                }
+            ]
+        },
+        {
+            "gateway_id": "node_45a8b177-b369-4590-8fd6-3d2da31106c3",
+            "probabilities": [
+                {
+                    "path_id": "node_8e5eb4ae-6444-4d0a-b8b2-68d433b4970e",
+                    "value": 0.125
+                },
+                {
+                    "path_id": "node_be175248-a6fd-44b9-8134-a57c1ad5f9f3",
+                    "value": 0.875
+                }
+            ]
+        }
+    ],
+    "arrival_time_calendar": [
+        {
+            "from": "MONDAY",
+            "to": "MONDAY",
+            "beginTime": "00:00:00",
+            "endTime": "03:00:00"
+        },
+        {
+            "from": "MONDAY",
+            "to": "MONDAY",
+            "beginTime": "04:00:00",
+            "endTime": "06:00:00"
+        },
+        {
+            "from": "MONDAY",
+            "to": "MONDAY",
+            "beginTime": "07:00:00",
+            "endTime": "13:00:00"
+        },
+        {
+            "from": "MONDAY",
+            "to": "MONDAY",
+            "beginTime": "14:00:00",
+            "endTime": "15:00:00"
+        },
+        {
+            "from": "MONDAY",
+            "to": "MONDAY",
+            "beginTime": "16:00:00",
+            "endTime": "18:00:00"
+        },
+        {
+            "from": "MONDAY",
+            "to": "MONDAY",
+            "beginTime": "20:00:00",
+            "endTime": "22:00:00"
+        },
+        {
+            "from": "TUESDAY",
+            "to": "TUESDAY",
+            "beginTime": "00:00:00",
+            "endTime": "01:00:00"
+        },
+        {
+            "from": "TUESDAY",
+            "to": "TUESDAY",
+            "beginTime": "06:00:00",
+            "endTime": "08:00:00"
+        },
+        {
+            "from": "TUESDAY",
+            "to": "TUESDAY",
+            "beginTime": "09:00:00",
+            "endTime": "12:00:00"
+        },
+        {
+            "from": "TUESDAY",
+            "to": "TUESDAY",
+            "beginTime": "14:00:00",
+            "endTime": "15:00:00"
+        },
+        {
+            "from": "TUESDAY",
+            "to": "TUESDAY",
+            "beginTime": "18:00:00",
+            "endTime": "19:00:00"
+        },
+        {
+            "from": "TUESDAY",
+            "to": "TUESDAY",
+            "beginTime": "20:00:00",
+            "endTime": "21:00:00"
+        },
+        {
+            "from": "WEDNESDAY",
+            "to": "WEDNESDAY",
+            "beginTime": "00:00:00",
+            "endTime": "01:00:00"
+        },
+        {
+            "from": "WEDNESDAY",
+            "to": "WEDNESDAY",
+            "beginTime": "03:00:00",
+            "endTime": "04:00:00"
+        },
+        {
+            "from": "WEDNESDAY",
+            "to": "WEDNESDAY",
+            "beginTime": "06:00:00",
+            "endTime": "11:00:00"
+        },
+        {
+            "from": "WEDNESDAY",
+            "to": "WEDNESDAY",
+            "beginTime": "18:00:00",
+            "endTime": "19:00:00"
+        },
+        {
+            "from": "WEDNESDAY",
+            "to": "WEDNESDAY",
+            "beginTime": "23:00:00",
+            "endTime": "23:59:59.999000"
+        },
+        {
+            "from": "THURSDAY",
+            "to": "THURSDAY",
+            "beginTime": "00:00:00",
+            "endTime": "01:00:00"
+        },
+        {
+            "from": "THURSDAY",
+            "to": "THURSDAY",
+            "beginTime": "03:00:00",
+            "endTime": "04:00:00"
+        },
+        {
+            "from": "THURSDAY",
+            "to": "THURSDAY",
+            "beginTime": "06:00:00",
+            "endTime": "09:00:00"
+        },
+        {
+            "from": "THURSDAY",
+            "to": "THURSDAY",
+            "beginTime": "10:00:00",
+            "endTime": "13:00:00"
+        },
+        {
+            "from": "THURSDAY",
+            "to": "THURSDAY",
+            "beginTime": "14:00:00",
+            "endTime": "15:00:00"
+        },
+        {
+            "from": "THURSDAY",
+            "to": "THURSDAY",
+            "beginTime": "19:00:00",
+            "endTime": "20:00:00"
+        },
+        {
+            "from": "FRIDAY",
+            "to": "FRIDAY",
+            "beginTime": "00:00:00",
+            "endTime": "01:00:00"
+        },
+        {
+            "from": "FRIDAY",
+            "to": "FRIDAY",
+            "beginTime": "06:00:00",
+            "endTime": "08:00:00"
+        },
+        {
+            "from": "FRIDAY",
+            "to": "FRIDAY",
+            "beginTime": "11:00:00",
+            "endTime": "12:00:00"
+        },
+        {
+            "from": "SATURDAY",
+            "to": "SATURDAY",
+            "beginTime": "22:00:00",
+            "endTime": "23:00:00"
+        },
+        {
+            "from": "SUNDAY",
+            "to": "SUNDAY",
+            "beginTime": "00:00:00",
+            "endTime": "01:00:00"
+        },
+        {
+            "from": "SUNDAY",
+            "to": "SUNDAY",
+            "beginTime": "09:00:00",
+            "endTime": "13:00:00"
+        },
+        {
+            "from": "SUNDAY",
+            "to": "SUNDAY",
+            "beginTime": "16:00:00",
+            "endTime": "17:00:00"
+        },
+        {
+            "from": "SUNDAY",
+            "to": "SUNDAY",
+            "beginTime": "18:00:00",
+            "endTime": "19:00:00"
+        }
+    ],
+    "arrival_time_distribution": {
+        "distribution_name": "gamma",
+        "distribution_params": [
+            {
+                "value": 34048.92857142857
+            },
+            {
+                "value": 2441597945.280612
+            },
+            {
+                "value": 0.0
+            },
+            {
+                "value": 292440.0
+            }
+        ]
+    },
+    "resource_profiles": [
+        {
+            "id": "Machine 1 - Lapping_profile",
+            "name": "Machine 1 - Lapping_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 1 - Lapping",
+                    "name": "Machine 1 - Lapping",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 1 - Lapping_profile_calendar",
+                    "assignedTasks": [
+                        "node_e1783639-30d0-42be-91da-ef1424ecc570"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 10 - Grinding_profile",
+            "name": "Machine 10 - Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 10 - Grinding",
+                    "name": "Machine 10 - Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 10 - Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_72f71d0e-c0bd-4164-bb48-8542331fcc0f",
+                        "node_5acbd9b7-de00-44f8-8e56-29b1b5ecde18",
+                        "node_440bcf95-f863-4aee-b013-5db9e455c663"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 11 - Grinding_profile",
+            "name": "Machine 11 - Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 11 - Grinding",
+                    "name": "Machine 11 - Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 11 - Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_1eb5b9c9-2562-4246-b7f5-51935a1eab2b",
+                        "node_a582fa29-9939-4c08-af11-136555b513fc"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 12 - Grinding_profile",
+            "name": "Machine 12 - Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 12 - Grinding",
+                    "name": "Machine 12 - Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 12 - Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_fb5e94c7-08f6-4213-bf2d-41b1ec911dd0",
+                        "node_20046a01-6e78-46ba-9487-218db87f3171"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 14 - Milling_profile",
+            "name": "Machine 14 - Milling_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 14 - Milling",
+                    "name": "Machine 14 - Milling",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 14 - Milling_profile_calendar",
+                    "assignedTasks": [
+                        "node_2fd920f9-b532-458c-88f0-f7972b56fa68"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 15 - Turning_profile",
+            "name": "Machine 15 - Turning_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 15 - Turning",
+                    "name": "Machine 15 - Turning",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 15 - Turning_profile_calendar",
+                    "assignedTasks": [
+                        "node_9b668660-012e-449f-bb43-6091fb204c6f",
+                        "node_337b54f0-5ca3-476c-8a72-27406516a277"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 16 - Milling_profile",
+            "name": "Machine 16 - Milling_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 16 - Milling",
+                    "name": "Machine 16 - Milling",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 16 - Milling_profile_calendar",
+                    "assignedTasks": [
+                        "node_cf196a98-1987-4541-87f9-cb27be23c80e"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 17 - Sinking_profile",
+            "name": "Machine 17 - Sinking_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 17 - Sinking",
+                    "name": "Machine 17 - Sinking",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 17 - Sinking_profile_calendar",
+                    "assignedTasks": [
+                        "node_fa10a561-006f-426e-a3af-0aaf55fe3995"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 18 - Wire Cutting_profile",
+            "name": "Machine 18 - Wire Cutting_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 18 - Wire Cutting",
+                    "name": "Machine 18 - Wire Cutting",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Undifferentiated_calendar",
+                    "assignedTasks": [
+                        "node_99db82cf-3fa3-4375-a2cf-7b770f5526d4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 19 - Grinding_profile",
+            "name": "Machine 19 - Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 19 - Grinding",
+                    "name": "Machine 19 - Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 19 - Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_e9851276-9097-4627-9f1d-478dd1ff509d"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 2 - Round Grinding_profile",
+            "name": "Machine 2 - Round Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 2 - Round Grinding",
+                    "name": "Machine 2 - Round Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 2 - Round Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_9dec9264-224c-4f3b-b984-9761c80a7881",
+                        "node_e482f869-f651-499a-a2a3-34299bcc9c50"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 21 - Turning_profile",
+            "name": "Machine 21 - Turning_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 21 - Turning",
+                    "name": "Machine 21 - Turning",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 21 - Turning_profile_calendar",
+                    "assignedTasks": [
+                        "node_45df581a-b2a2-453a-97b8-44bdd718315e",
+                        "node_1be82434-3173-47b3-aba1-255d3a9c940c"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 22 - Milling_profile",
+            "name": "Machine 22 - Milling_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 22 - Milling",
+                    "name": "Machine 22 - Milling",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 22 - Milling_profile_calendar",
+                    "assignedTasks": [
+                        "node_29313dd4-d896-428d-b114-26900e828cde"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 23 - Turning_profile",
+            "name": "Machine 23 - Turning_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 23 - Turning",
+                    "name": "Machine 23 - Turning",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 23 - Turning_profile_calendar",
+                    "assignedTasks": [
+                        "node_1e296c3d-02f7-4acc-ba59-f4c74b15687a"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 25 - Grinding_profile",
+            "name": "Machine 25 - Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 25 - Grinding",
+                    "name": "Machine 25 - Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 25 - Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_b33c430d-604c-43bf-8274-9ef23336f4cf"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 26 - Flat Grinding_profile",
+            "name": "Machine 26 - Flat Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 26 - Flat Grinding",
+                    "name": "Machine 26 - Flat Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 26 - Flat Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_97d3f1f9-a263-4a2f-aad1-99516047c061"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 27 - Grinding_profile",
+            "name": "Machine 27 - Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 27 - Grinding",
+                    "name": "Machine 27 - Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 27 - Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_c137ee86-39f9-4f00-900a-5c6b51aaa755",
+                        "node_715a85ca-9d0a-4eac-8d82-f899bfbf92ef"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 3 - Round Grinding_profile",
+            "name": "Machine 3 - Round Grinding_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 3 - Round Grinding",
+                    "name": "Machine 3 - Round Grinding",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 3 - Round Grinding_profile_calendar",
+                    "assignedTasks": [
+                        "node_ede5def7-e70c-464c-beaf-690f24c6a650",
+                        "node_c213e0f0-0ac1-4496-9ebe-a81c5bc31341"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 4 - Turning & Milling_profile",
+            "name": "Machine 4 - Turning & Milling_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 4 - Turning & Milling",
+                    "name": "Machine 4 - Turning & Milling",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 4 - Turning & Milling_profile_calendar",
+                    "assignedTasks": [
+                        "node_d2d16bcf-0136-4147-849b-7416b31f8189",
+                        "node_1340b263-eca0-483f-8c95-ebe25418f193",
+                        "node_752fb73e-3ae5-4386-8c2e-9fd7d484b6a9"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 5 - Turning & Milling_profile",
+            "name": "Machine 5 - Turning & Milling_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 5 - Turning & Milling",
+                    "name": "Machine 5 - Turning & Milling",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 5 - Turning & Milling_profile_calendar",
+                    "assignedTasks": [
+                        "node_785ee200-7d14-4520-a7cb-6a88cd7f1503",
+                        "node_933d5bf3-bfb8-486b-a76b-908cb3f47e6b",
+                        "node_5960f0e5-1ef4-4abe-a73a-66cc2ac0e25c"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 6 - Turning & Milling_profile",
+            "name": "Machine 6 - Turning & Milling_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 6 - Turning & Milling",
+                    "name": "Machine 6 - Turning & Milling",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 6 - Turning & Milling_profile_calendar",
+                    "assignedTasks": [
+                        "node_cef04f4c-be2f-4fe9-b0f6-774217590326"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 7- Laser Marking_profile",
+            "name": "Machine 7- Laser Marking_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 7- Laser Marking",
+                    "name": "Machine 7- Laser Marking",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 7- Laser Marking_profile_calendar",
+                    "assignedTasks": [
+                        "node_87eb5f4f-7597-4301-ad4b-9d5beb7731b0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 8 - Turning & Milling_profile",
+            "name": "Machine 8 - Turning & Milling_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 8 - Turning & Milling",
+                    "name": "Machine 8 - Turning & Milling",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 8 - Turning & Milling_profile_calendar",
+                    "assignedTasks": [
+                        "node_a3ccfd1b-23f1-4456-8ee8-8de492495fe9",
+                        "node_9b668660-012e-449f-bb43-6091fb204c6f",
+                        "node_9acc948c-e43b-4589-ae1a-d84d227ac6f9",
+                        "node_fbac59e3-697e-473e-9ae0-a54a6469b60e",
+                        "node_8b4582bc-a5a2-4d40-8775-ac592467ddaf"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Machine 9 - Turning & Milling_profile",
+            "name": "Machine 9 - Turning & Milling_profile",
+            "resource_list": [
+                {
+                    "id": "Machine 9 - Turning & Milling",
+                    "name": "Machine 9 - Turning & Milling",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Machine 9 - Turning & Milling_profile_calendar",
+                    "assignedTasks": [
+                        "node_e81ebffb-7efe-4c97-b980-27fbc2bbef2e",
+                        "node_f966039b-34eb-4a65-b1db-966966b49c8a",
+                        "node_e9f3d37a-b512-40c9-910e-7832fdbb09d1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Manual Deburring_profile",
+            "name": "Manual Deburring_profile",
+            "resource_list": [
+                {
+                    "id": "Manual Deburring",
+                    "name": "Manual Deburring",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Manual Deburring_profile_calendar",
+                    "assignedTasks": [
+                        "node_a86ac5dc-45e5-4843-b6ad-0e36643fe04d"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Manual Milling - Machine 28_profile",
+            "name": "Manual Milling - Machine 28_profile",
+            "resource_list": [
+                {
+                    "id": "Manual Milling - Machine 28",
+                    "name": "Manual Milling - Machine 28",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Manual Milling - Machine 28_profile_calendar",
+                    "assignedTasks": [
+                        "node_7590b7d0-5e3a-4ce5-b2c2-0a32c6918b72"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Oven_profile",
+            "name": "Oven_profile",
+            "resource_list": [
+                {
+                    "id": "Oven",
+                    "name": "Oven",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Oven_profile_calendar",
+                    "assignedTasks": [
+                        "node_ae82d37f-0a44-4c48-9abe-6644958c59e7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Packing_profile",
+            "name": "Packing_profile",
+            "resource_list": [
+                {
+                    "id": "Packing",
+                    "name": "Packing",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Packing_profile_calendar",
+                    "assignedTasks": [
+                        "node_81a17509-22af-4d24-b1fd-bb13e2e6954d"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Quality Check 1_profile",
+            "name": "Quality Check 1_profile",
+            "resource_list": [
+                {
+                    "id": "Quality Check 1",
+                    "name": "Quality Check 1",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Quality Check 1_profile_calendar",
+                    "assignedTasks": [
+                        "node_32fcd07a-c70e-4b63-84e1-0ab6e4765abc",
+                        "node_c92ad8bb-a6f9-4884-b334-299333286e02",
+                        "node_d86582ab-5172-491e-9ed2-ecaf7eca5098",
+                        "node_cc81c3ad-9859-418b-9dca-359249a0396e",
+                        "node_916505be-98fc-4533-bd46-de58858054e4",
+                        "node_ab9ec9f8-4145-44f1-ba1d-64a010a08ab9",
+                        "node_8387657d-c834-474a-b02a-0e5d72135bd0",
+                        "node_e1783639-30d0-42be-91da-ef1424ecc570"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Quality Check 2_profile",
+            "name": "Quality Check 2_profile",
+            "resource_list": [
+                {
+                    "id": "Quality Check 2",
+                    "name": "Quality Check 2",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Quality Check 2_profile_calendar",
+                    "assignedTasks": [
+                        "node_6943fe86-8ceb-4cfa-bec8-a3629609964b"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Wire Cut - Machine 13_profile",
+            "name": "Wire Cut - Machine 13_profile",
+            "resource_list": [
+                {
+                    "id": "Wire Cut - Machine 13",
+                    "name": "Wire Cut - Machine 13",
+                    "amount": 1,
+                    "cost_per_hour": 20,
+                    "calendar": "Wire Cut - Machine 13_profile_calendar",
+                    "assignedTasks": [
+                        "node_dd2bc736-423c-4828-b703-0e152077209e"
+                    ]
+                }
+            ]
+        }
+    ],
+    "resource_calendars": [
+        {
+            "id": "Machine 1 - Lapping_profile_calendar",
+            "name": "Machine 1 - Lapping_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "12:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "13:20:00",
+                    "endTime": "14:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "13:20:00",
+                    "endTime": "14:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 10 - Grinding_profile_calendar",
+            "name": "Machine 10 - Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "08:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "22:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 11 - Grinding_profile_calendar",
+            "name": "Machine 11 - Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "10:00:00",
+                    "endTime": "10:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "12:00:00",
+                    "endTime": "12:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "13:20:00",
+                    "endTime": "14:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "12:00:00",
+                    "endTime": "12:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "08:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "10:00:00",
+                    "endTime": "10:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "14:00:00",
+                    "endTime": "14:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "16:40:00",
+                    "endTime": "17:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 12 - Grinding_profile_calendar",
+            "name": "Machine 12 - Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "12:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "22:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "11:20:00",
+                    "endTime": "12:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "20:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "21:20:00",
+                    "endTime": "22:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 14 - Milling_profile_calendar",
+            "name": "Machine 14 - Milling_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "14:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "12:00:00",
+                    "endTime": "12:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "06:40:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 15 - Turning_profile_calendar",
+            "name": "Machine 15 - Turning_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "18:40:00",
+                    "endTime": "19:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "21:20:00",
+                    "endTime": "22:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "22:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "22:40:00",
+                    "endTime": "23:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 16 - Milling_profile_calendar",
+            "name": "Machine 16 - Milling_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "07:20:00",
+                    "endTime": "08:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "07:20:00",
+                    "endTime": "08:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "18:00:00",
+                    "endTime": "18:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 17 - Sinking_profile_calendar",
+            "name": "Machine 17 - Sinking_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "08:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "14:40:00",
+                    "endTime": "15:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "04:00:00",
+                    "endTime": "04:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                }
+            ]
+        },
+        {
+            "id": "Machine 19 - Grinding_profile_calendar",
+            "name": "Machine 19 - Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "11:20:00",
+                    "endTime": "12:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "14:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "09:20:00",
+                    "endTime": "10:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 2 - Round Grinding_profile_calendar",
+            "name": "Machine 2 - Round Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "10:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "22:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                }
+            ]
+        },
+        {
+            "id": "Machine 21 - Turning_profile_calendar",
+            "name": "Machine 21 - Turning_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "10:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "14:40:00",
+                    "endTime": "15:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "10:00:00",
+                    "endTime": "10:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 22 - Milling_profile_calendar",
+            "name": "Machine 22 - Milling_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "10:00:00",
+                    "endTime": "10:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "20:40:00",
+                    "endTime": "21:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "21:20:00",
+                    "endTime": "22:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "14:40:00",
+                    "endTime": "15:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 23 - Turning_profile_calendar",
+            "name": "Machine 23 - Turning_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "12:00:00",
+                    "endTime": "14:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "21:20:00",
+                    "endTime": "22:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                }
+            ]
+        },
+        {
+            "id": "Machine 25 - Grinding_profile_calendar",
+            "name": "Machine 25 - Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "06:40:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 26 - Flat Grinding_profile_calendar",
+            "name": "Machine 26 - Flat Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "11:20:00",
+                    "endTime": "12:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 27 - Grinding_profile_calendar",
+            "name": "Machine 27 - Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "11:20:00",
+                    "endTime": "12:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 3 - Round Grinding_profile_calendar",
+            "name": "Machine 3 - Round Grinding_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "13:20:00",
+                    "endTime": "14:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                }
+            ]
+        },
+        {
+            "id": "Machine 4 - Turning & Milling_profile_calendar",
+            "name": "Machine 4 - Turning & Milling_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "19:20:00",
+                    "endTime": "20:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "20:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "06:40:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "21:20:00",
+                    "endTime": "22:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "19:20:00",
+                    "endTime": "20:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 5 - Turning & Milling_profile_calendar",
+            "name": "Machine 5 - Turning & Milling_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "10:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "05:20:00",
+                    "endTime": "06:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "01:20:00",
+                    "endTime": "02:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 6 - Turning & Milling_profile_calendar",
+            "name": "Machine 6 - Turning & Milling_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "00:40:00",
+                    "endTime": "01:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "20:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "20:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "20:40:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 7- Laser Marking_profile_calendar",
+            "name": "Machine 7- Laser Marking_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "09:20:00",
+                    "endTime": "10:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "12:00:00",
+                    "endTime": "12:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:40:00",
+                    "endTime": "17:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "13:20:00",
+                    "endTime": "14:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "10:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "14:40:00",
+                    "endTime": "15:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "09:20:00",
+                    "endTime": "10:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "11:20:00",
+                    "endTime": "12:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 8 - Turning & Milling_profile_calendar",
+            "name": "Machine 8 - Turning & Milling_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "14:00:00",
+                    "endTime": "14:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:40:00",
+                    "endTime": "17:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "18:40:00",
+                    "endTime": "19:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "20:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "07:20:00",
+                    "endTime": "08:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "18:40:00",
+                    "endTime": "19:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "09:20:00",
+                    "endTime": "10:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "07:20:00",
+                    "endTime": "08:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Machine 9 - Turning & Milling_profile_calendar",
+            "name": "Machine 9 - Turning & Milling_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "08:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "06:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "22:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "16:40:00"
+                }
+            ]
+        },
+        {
+            "id": "Manual Deburring_profile_calendar",
+            "name": "Manual Deburring_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "14:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "10:00:00",
+                    "endTime": "14:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "09:20:00",
+                    "endTime": "10:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Manual Milling - Machine 28_profile_calendar",
+            "name": "Manual Milling - Machine 28_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "10:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "11:20:00",
+                    "endTime": "12:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Oven_profile_calendar",
+            "name": "Oven_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:40:00",
+                    "endTime": "17:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Packing_profile_calendar",
+            "name": "Packing_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                }
+            ]
+        },
+        {
+            "id": "Quality Check 1_profile_calendar",
+            "name": "Quality Check 1_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "07:20:00",
+                    "endTime": "08:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "10:40:00",
+                    "endTime": "11:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "14:40:00",
+                    "endTime": "15:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "13:20:00",
+                    "endTime": "14:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "07:20:00",
+                    "endTime": "08:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "10:00:00",
+                    "endTime": "10:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "07:20:00",
+                    "endTime": "08:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "11:20:00",
+                    "endTime": "12:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "14:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "12:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "00:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "13:20:00",
+                    "endTime": "14:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Quality Check 2_profile_calendar",
+            "name": "Quality Check 2_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "17:20:00",
+                    "endTime": "18:00:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "18:40:00",
+                    "endTime": "19:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "08:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "09:20:00",
+                    "endTime": "10:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Wire Cut - Machine 13_profile_calendar",
+            "name": "Wire Cut - Machine 13_profile_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "16:00:00",
+                    "endTime": "16:40:00"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "08:00:00",
+                    "endTime": "08:40:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "12:00:00",
+                    "endTime": "12:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "06:40:00",
+                    "endTime": "07:00:00"
+                }
+            ]
+        },
+        {
+            "id": "Undifferentiated_calendar",
+            "name": "Undifferentiated_calendar",
+            "time_periods": [
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "MONDAY",
+                    "to": "MONDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "21:20:00",
+                    "endTime": "22:00:00"
+                },
+                {
+                    "from": "TUESDAY",
+                    "to": "TUESDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "WEDNESDAY",
+                    "to": "WEDNESDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "THURSDAY",
+                    "to": "THURSDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "FRIDAY",
+                    "to": "FRIDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "12:40:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "06:00:00",
+                    "endTime": "06:40:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "08:40:00",
+                    "endTime": "09:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "12:40:00",
+                    "endTime": "13:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "15:20:00",
+                    "endTime": "16:00:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "22:00:00",
+                    "endTime": "22:40:00"
+                },
+                {
+                    "from": "SATURDAY",
+                    "to": "SATURDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "00:00:00",
+                    "endTime": "20:40:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "21:20:00",
+                    "endTime": "22:00:00"
+                },
+                {
+                    "from": "SUNDAY",
+                    "to": "SUNDAY",
+                    "beginTime": "23:20:00",
+                    "endTime": "23:59:59.999000"
+                }
+            ]
+        }
+    ],
+    "task_resource_distribution": [
+        {
+            "task_id": "node_e1783639-30d0-42be-91da-ef1424ecc570",
+            "resources": [
+                {
+                    "resource_id": "Machine 1 - Lapping",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 2312.032520333333
+                        },
+                        {
+                            "value": 13201539.771334102
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 25860.0
+                        }
+                    ]
+                },
+                {
+                    "resource_id": "Quality Check 1",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 900.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_5acbd9b7-de00-44f8-8e56-29b1b5ecde18",
+            "resources": [
+                {
+                    "resource_id": "Machine 10 - Grinding",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 2400.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_440bcf95-f863-4aee-b013-5db9e455c663",
+            "resources": [
+                {
+                    "resource_id": "Machine 10 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1155.0000002857143
+                        },
+                        {
+                            "value": 2017960.7141785717
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 4620.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_72f71d0e-c0bd-4164-bb48-8542331fcc0f",
+            "resources": [
+                {
+                    "resource_id": "Machine 10 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 647.9194632953022
+                        },
+                        {
+                            "value": 1320111.7787158794
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 4800.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_1eb5b9c9-2562-4246-b7f5-51935a1eab2b",
+            "resources": [
+                {
+                    "resource_id": "Machine 11 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 688.6725663716815
+                        },
+                        {
+                            "value": 1629372.5742031483
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 4500.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_a582fa29-9939-4c08-af11-136555b513fc",
+            "resources": [
+                {
+                    "resource_id": "Machine 11 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1494.5454545454545
+                        },
+                        {
+                            "value": 2349461.1570247933
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 4800.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_20046a01-6e78-46ba-9487-218db87f3171",
+            "resources": [
+                {
+                    "resource_id": "Machine 12 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1560.0
+                        },
+                        {
+                            "value": 1444581.8181818181
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 4020.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_fb5e94c7-08f6-4213-bf2d-41b1ec911dd0",
+            "resources": [
+                {
+                    "resource_id": "Machine 12 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1094.634121987805
+                        },
+                        {
+                            "value": 4122224.8902287935
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 12360.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_2fd920f9-b532-458c-88f0-f7972b56fa68",
+            "resources": [
+                {
+                    "resource_id": "Machine 14 - Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 4350.000000222222
+                        },
+                        {
+                            "value": 29204099.9992
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 21000.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_337b54f0-5ca3-476c-8a72-27406516a277",
+            "resources": [
+                {
+                    "resource_id": "Machine 15 - Turning",
+                    "distribution_name": "lognorm",
+                    "distribution_params": [
+                        {
+                            "value": 1170.0
+                        },
+                        {
+                            "value": 562500.0
+                        },
+                        {
+                            "value": 420.0
+                        },
+                        {
+                            "value": 1920.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_9b668660-012e-449f-bb43-6091fb204c6f",
+            "resources": [
+                {
+                    "resource_id": "Machine 15 - Turning",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 660.000000212766
+                        },
+                        {
+                            "value": 706825.5319659575
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 2400.0
+                        }
+                    ]
+                },
+                {
+                    "resource_id": "Machine 8 - Turning & Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 861.6666668055556
+                        },
+                        {
+                            "value": 2481830.555416203
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 7200.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_cf196a98-1987-4541-87f9-cb27be23c80e",
+            "resources": [
+                {
+                    "resource_id": "Machine 16 - Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 660.0
+                        },
+                        {
+                            "value": 1112400.0
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 3000.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_fa10a561-006f-426e-a3af-0aaf55fe3995",
+            "resources": [
+                {
+                    "resource_id": "Machine 17 - Sinking",
+                    "distribution_name": "uniform",
+                    "distribution_params": [
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 3600.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_99db82cf-3fa3-4375-a2cf-7b770f5526d4",
+            "resources": [
+                {
+                    "resource_id": "Machine 18 - Wire Cutting",
+                    "distribution_name": "expon",
+                    "distribution_params": [
+                        {
+                            "value": 15800.000000166669
+                        },
+                        {
+                            "value": 7200.0
+                        },
+                        {
+                            "value": 28800.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_e9851276-9097-4627-9f1d-478dd1ff509d",
+            "resources": [
+                {
+                    "resource_id": "Machine 19 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 2180.0
+                        },
+                        {
+                            "value": 2372000.0
+                        },
+                        {
+                            "value": 600.0
+                        },
+                        {
+                            "value": 4500.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_e482f869-f651-499a-a2a3-34299bcc9c50",
+            "resources": [
+                {
+                    "resource_id": "Machine 2 - Round Grinding",
+                    "distribution_name": "lognorm",
+                    "distribution_params": [
+                        {
+                            "value": 3970.0
+                        },
+                        {
+                            "value": 50020100.0
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 19740.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_9dec9264-224c-4f3b-b984-9761c80a7881",
+            "resources": [
+                {
+                    "resource_id": "Machine 2 - Round Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1902.9212623408241
+                        },
+                        {
+                            "value": 15935088.032633316
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 24000.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_1be82434-3173-47b3-aba1-255d3a9c940c",
+            "resources": [
+                {
+                    "resource_id": "Machine 21 - Turning",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 1800.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_45df581a-b2a2-453a-97b8-44bdd718315e",
+            "resources": [
+                {
+                    "resource_id": "Machine 21 - Turning",
+                    "distribution_name": "lognorm",
+                    "distribution_params": [
+                        {
+                            "value": 1000.0
+                        },
+                        {
+                            "value": 560000.0
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 1800.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_29313dd4-d896-428d-b114-26900e828cde",
+            "resources": [
+                {
+                    "resource_id": "Machine 22 - Milling",
+                    "distribution_name": "lognorm",
+                    "distribution_params": [
+                        {
+                            "value": 1905.0000005000002
+                        },
+                        {
+                            "value": 1080674.9995349997
+                        },
+                        {
+                            "value": 840.0000010000003
+                        },
+                        {
+                            "value": 3540.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_1e296c3d-02f7-4acc-ba59-f4c74b15687a",
+            "resources": [
+                {
+                    "resource_id": "Machine 23 - Turning",
+                    "distribution_name": "expon",
+                    "distribution_params": [
+                        {
+                            "value": 7620.0
+                        },
+                        {
+                            "value": 1620.0
+                        },
+                        {
+                            "value": 14400.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_b33c430d-604c-43bf-8274-9ef23336f4cf",
+            "resources": [
+                {
+                    "resource_id": "Machine 25 - Grinding",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 2699.999001
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_97d3f1f9-a263-4a2f-aad1-99516047c061",
+            "resources": [
+                {
+                    "resource_id": "Machine 26 - Flat Grinding",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 600.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_715a85ca-9d0a-4eac-8d82-f899bfbf92ef",
+            "resources": [
+                {
+                    "resource_id": "Machine 27 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 705.2173913043479
+                        },
+                        {
+                            "value": 1078790.1701323255
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 4320.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_c137ee86-39f9-4f00-900a-5c6b51aaa755",
+            "resources": [
+                {
+                    "resource_id": "Machine 27 - Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 819.9999762619049
+                        },
+                        {
+                            "value": 1491285.6390647849
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 4800.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_c213e0f0-0ac1-4496-9ebe-a81c5bc31341",
+            "resources": [
+                {
+                    "resource_id": "Machine 3 - Round Grinding",
+                    "distribution_name": "expon",
+                    "distribution_params": [
+                        {
+                            "value": 2190.0
+                        },
+                        {
+                            "value": 1080.0
+                        },
+                        {
+                            "value": 3300.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_ede5def7-e70c-464c-beaf-690f24c6a650",
+            "resources": [
+                {
+                    "resource_id": "Machine 3 - Round Grinding",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1964.615340827839
+                        },
+                        {
+                            "value": 27927877.420573406
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 34980.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_1340b263-eca0-483f-8c95-ebe25418f193",
+            "resources": [
+                {
+                    "resource_id": "Machine 4 - Turning & Milling",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 600.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_d2d16bcf-0136-4147-849b-7416b31f8189",
+            "resources": [
+                {
+                    "resource_id": "Machine 4 - Turning & Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 3714.2747674045804
+                        },
+                        {
+                            "value": 52656796.32647391
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 35580.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_752fb73e-3ae5-4386-8c2e-9fd7d484b6a9",
+            "resources": [
+                {
+                    "resource_id": "Machine 4 - Turning & Milling",
+                    "distribution_name": "expon",
+                    "distribution_params": [
+                        {
+                            "value": 8040.00000025
+                        },
+                        {
+                            "value": 60.0
+                        },
+                        {
+                            "value": 32400.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_5960f0e5-1ef4-4abe-a73a-66cc2ac0e25c",
+            "resources": [
+                {
+                    "resource_id": "Machine 5 - Turning & Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 180.0
+                        },
+                        {
+                            "value": 64800.0
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 540.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_785ee200-7d14-4520-a7cb-6a88cd7f1503",
+            "resources": [
+                {
+                    "resource_id": "Machine 5 - Turning & Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1687.41298476834
+                        },
+                        {
+                            "value": 15604235.269069942
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 28740.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_933d5bf3-bfb8-486b-a76b-908cb3f47e6b",
+            "resources": [
+                {
+                    "resource_id": "Machine 5 - Turning & Milling",
+                    "distribution_name": "uniform",
+                    "distribution_params": [
+                        {
+                            "value": 1920.0
+                        },
+                        {
+                            "value": 14580.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_cef04f4c-be2f-4fe9-b0f6-774217590326",
+            "resources": [
+                {
+                    "resource_id": "Machine 6 - Turning & Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1164.3677818735637
+                        },
+                        {
+                            "value": 6275571.478375332
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 17100.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_87eb5f4f-7597-4301-ad4b-9d5beb7731b0",
+            "resources": [
+                {
+                    "resource_id": "Machine 7- Laser Marking",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 596.428571436508
+                        },
+                        {
+                            "value": 1392144.3877456354
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 8520.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_8b4582bc-a5a2-4d40-8775-ac592467ddaf",
+            "resources": [
+                {
+                    "resource_id": "Machine 8 - Turning & Milling",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 3360.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_9acc948c-e43b-4589-ae1a-d84d227ac6f9",
+            "resources": [
+                {
+                    "resource_id": "Machine 8 - Turning & Milling",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_fbac59e3-697e-473e-9ae0-a54a6469b60e",
+            "resources": [
+                {
+                    "resource_id": "Machine 8 - Turning & Milling",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 960.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_a3ccfd1b-23f1-4456-8ee8-8de492495fe9",
+            "resources": [
+                {
+                    "resource_id": "Machine 8 - Turning & Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1064.666666788889
+                        },
+                        {
+                            "value": 2575084.8887159703
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 7200.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_f966039b-34eb-4a65-b1db-966966b49c8a",
+            "resources": [
+                {
+                    "resource_id": "Machine 9 - Turning & Milling",
+                    "distribution_name": "uniform",
+                    "distribution_params": [
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 16200.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_e81ebffb-7efe-4c97-b980-27fbc2bbef2e",
+            "resources": [
+                {
+                    "resource_id": "Machine 9 - Turning & Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 4550.126550848101
+                        },
+                        {
+                            "value": 64326752.04118744
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 34140.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_e9f3d37a-b512-40c9-910e-7832fdbb09d1",
+            "resources": [
+                {
+                    "resource_id": "Machine 9 - Turning & Milling",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 4799.999969787879
+                        },
+                        {
+                            "value": 62577380.59781094
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 25620.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_a86ac5dc-45e5-4843-b6ad-0e36643fe04d",
+            "resources": [
+                {
+                    "resource_id": "Manual Deburring",
+                    "distribution_name": "lognorm",
+                    "distribution_params": [
+                        {
+                            "value": 2446.6666666666665
+                        },
+                        {
+                            "value": 18969422.222222224
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 13020.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_7590b7d0-5e3a-4ce5-b2c2-0a32c6918b72",
+            "resources": [
+                {
+                    "resource_id": "Manual Milling - Machine 28",
+                    "distribution_name": "uniform",
+                    "distribution_params": [
+                        {
+                            "value": 3000.0
+                        },
+                        {
+                            "value": 7200.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_ae82d37f-0a44-4c48-9abe-6644958c59e7",
+            "resources": [
+                {
+                    "resource_id": "Oven",
+                    "distribution_name": "norm",
+                    "distribution_params": [
+                        {
+                            "value": 800.0
+                        },
+                        {
+                            "value": 565.685424949238
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 1200.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_81a17509-22af-4d24-b1fd-bb13e2e6954d",
+            "resources": [
+                {
+                    "resource_id": "Packing",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 2400.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_ab9ec9f8-4145-44f1-ba1d-64a010a08ab9",
+            "resources": [
+                {
+                    "resource_id": "Quality Check 1",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 2400.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_c92ad8bb-a6f9-4884-b334-299333286e02",
+            "resources": [
+                {
+                    "resource_id": "Quality Check 1",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1308.8727272727272
+                        },
+                        {
+                            "value": 5882210.729256198
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 18000.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_8387657d-c834-474a-b02a-0e5d72135bd0",
+            "resources": [
+                {
+                    "resource_id": "Quality Check 1",
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {
+                            "value": 2400.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_916505be-98fc-4533-bd46-de58858054e4",
+            "resources": [
+                {
+                    "resource_id": "Quality Check 1",
+                    "distribution_name": "expon",
+                    "distribution_params": [
+                        {
+                            "value": 360.0
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 1200.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_d86582ab-5172-491e-9ed2-ecaf7eca5098",
+            "resources": [
+                {
+                    "resource_id": "Quality Check 1",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1705.4237288135594
+                        },
+                        {
+                            "value": 10964038.379775926
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 17580.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_32fcd07a-c70e-4b63-84e1-0ab6e4765abc",
+            "resources": [
+                {
+                    "resource_id": "Quality Check 1",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 1039.3103448333334
+                        },
+                        {
+                            "value": 6062620.21401897
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 20400.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_cc81c3ad-9859-418b-9dca-359249a0396e",
+            "resources": [
+                {
+                    "resource_id": "Quality Check 1",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 939.2727272727273
+                        },
+                        {
+                            "value": 3960814.0165289263
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 8040.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_6943fe86-8ceb-4cfa-bec8-a3629609964b",
+            "resources": [
+                {
+                    "resource_id": "Quality Check 2",
+                    "distribution_name": "norm",
+                    "distribution_params": [
+                        {
+                            "value": 1530.0
+                        },
+                        {
+                            "value": 330.0
+                        },
+                        {
+                            "value": 1200.0
+                        },
+                        {
+                            "value": 1860.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "task_id": "node_dd2bc736-423c-4828-b703-0e152077209e",
+            "resources": [
+                {
+                    "resource_id": "Wire Cut - Machine 13",
+                    "distribution_name": "gamma",
+                    "distribution_params": [
+                        {
+                            "value": 660.0000000476191
+                        },
+                        {
+                            "value": 716571.4285085713
+                        },
+                        {
+                            "value": 0.0
+                        },
+                        {
+                            "value": 2400.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "event_distribution": [
+        {
+            "activity": "Change Version - Machine 22",
+            "event_id": "Event_47660306-cfff-49d5-a688-927750a1d767",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 17910.0
+                },
+                {
+                    "value": 472605300.0
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 53400.0
+                }
+            ]
+        },
+        {
+            "activity": "Deburring - Manual",
+            "event_id": "Event_a618083e-ac6d-4f4f-9130-f35a76f47521",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 25453.333333333332
+                },
+                {
+                    "value": 2325791822.2222223
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 160620.0
+                }
+            ]
+        },
+        {
+            "activity": "Final Inspection - Weighting",
+            "event_id": "Event_d1ad9b20-c14c-4c06-b611-9347d291a378",
+            "distribution_name": "fix",
+            "distribution_params": [
+                {
+                    "value": 21180.0
+                }
+            ]
+        },
+        {
+            "activity": "Final Inspection Q.C.",
+            "event_id": "Event_97659d96-ca33-4403-9522-c104345cc9c1",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 90281.89090909091
+                },
+                {
+                    "value": 90329130352.7881
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 4730400.0
+                }
+            ]
+        },
+        {
+            "activity": "Fix - Machine 15",
+            "event_id": "Event_028d1692-dc68-4ffc-864c-293b1b47ec44",
+            "distribution_name": "uniform",
+            "distribution_params": [
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1696080.0
+                }
+            ]
+        },
+        {
+            "activity": "Fix - Machine 15M",
+            "event_id": "Event_5fad4c1c-ee7d-498b-9ca1-a277cfdec441",
+            "distribution_name": "fix",
+            "distribution_params": [
+                {
+                    "value": 427440.0
+                }
+            ]
+        },
+        {
+            "activity": "Fix - Machine 19",
+            "event_id": "Event_c74d9bbb-93bf-43ca-8c82-dd8ce204231a",
+            "distribution_name": "fix",
+            "distribution_params": [
+                {
+                    "value": 720.0
+                }
+            ]
+        },
+        {
+            "activity": "Fix - Machine 3",
+            "event_id": "Event_f4f7826c-c307-4acf-b680-c92581e3b32a",
+            "distribution_name": "norm",
+            "distribution_params": [
+                {
+                    "value": 11880.0
+                },
+                {
+                    "value": 11880.0
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 23760.0
+                }
+            ]
+        },
+        {
+            "activity": "Fix EDM",
+            "event_id": "Event_94bb0ca1-01af-4a2a-afef-dfae074e30b9",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 135855.0
+                },
+                {
+                    "value": 45807592275.0
+                },
+                {
+                    "value": 1320.0
+                },
+                {
+                    "value": 505800.0
+                }
+            ]
+        },
+        {
+            "activity": "Flat Grinding - Machine 11",
+            "event_id": "Event_a1edc0c7-92f2-42ba-818a-147de02e44c6",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 79122.47787610619
+                },
+                {
+                    "value": 25425011512.4442
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1336980.0
+                }
+            ]
+        },
+        {
+            "activity": "Flat Grinding - Machine 26",
+            "event_id": "Event_85bbcbed-0806-4c73-9c5d-1e468a749045",
+            "distribution_name": "fix",
+            "distribution_params": [
+                {
+                    "value": 193500.0
+                }
+            ]
+        },
+        {
+            "activity": "Grinding Rework",
+            "event_id": "Event_60f873fb-62aa-41dd-bb3c-4f550c1fc6b2",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 118265.45454545454
+                },
+                {
+                    "value": 73357691861.15703
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 967920.0
+                }
+            ]
+        },
+        {
+            "activity": "Grinding Rework - Machine 12",
+            "event_id": "Event_c13a303a-c0ea-498c-94f8-d179a3eef202",
+            "distribution_name": "expon",
+            "distribution_params": [
+                {
+                    "value": 808587.2727272727
+                },
+                {
+                    "value": 9600.0
+                },
+                {
+                    "value": 4939380.0
+                }
+            ]
+        },
+        {
+            "activity": "Grinding Rework - Machine 2",
+            "event_id": "Event_7b7c5611-b9ec-4fe2-9e9d-3439b02878f1",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 87020.0
+                },
+                {
+                    "value": 13585325600.0
+                },
+                {
+                    "value": 960.0
+                },
+                {
+                    "value": 325500.0
+                }
+            ]
+        },
+        {
+            "activity": "Grinding Rework - Machine 27",
+            "event_id": "Event_e0c65fa3-12eb-464f-84cb-56aa52aef97b",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 280580.0
+                },
+                {
+                    "value": 296106258226.087
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 2837580.0
+                }
+            ]
+        },
+        {
+            "activity": "Lapping - Machine 1",
+            "event_id": "Event_793ffd98-f2b4-4801-9bb1-1fb697ee985a",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 237696.0
+                },
+                {
+                    "value": 378588260634.8108
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 4098060.0
+                }
+            ]
+        },
+        {
+            "activity": "Laser Marking - Machine 7",
+            "event_id": "Event_8fec2e88-8364-41d1-888d-a8f1f0c3fdf0",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 136097.85714285713
+                },
+                {
+                    "value": 66623015723.97958
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1540440.0
+                }
+            ]
+        },
+        {
+            "activity": "Milling - Machine 14",
+            "event_id": "Event_466b75ef-cde3-4d68-9226-f57a6760ff93",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 13666.666666666666
+                },
+                {
+                    "value": 325472622.2222222
+                },
+                {
+                    "value": 120.0
+                },
+                {
+                    "value": 63120.0
+                }
+            ]
+        },
+        {
+            "activity": "Milling - Machine 16",
+            "event_id": "Event_9062d79c-669d-4157-b2f5-4c410a779829",
+            "distribution_name": "norm",
+            "distribution_params": [
+                {
+                    "value": 47982.0
+                },
+                {
+                    "value": 43632.427803183265
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 150540.0
+                }
+            ]
+        },
+        {
+            "activity": "Milling Q.C.",
+            "event_id": "Event_1460501e-61e8-4f73-ab9c-7df483bec6ce",
+            "distribution_name": "fix",
+            "distribution_params": [
+                {
+                    "value": 3391020.0
+                }
+            ]
+        },
+        {
+            "activity": "Nitration Q.C.",
+            "event_id": "Event_acdfc01e-e5ac-4fd8-a6f0-57855006eb6d",
+            "distribution_name": "expon",
+            "distribution_params": [
+                {
+                    "value": 852855.0
+                },
+                {
+                    "value": 478260.0
+                },
+                {
+                    "value": 1169220.0
+                }
+            ]
+        },
+        {
+            "activity": "Packing",
+            "event_id": "Event_0ab9b453-b957-4eb6-8cd0-9f4d7a0b7e7b",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 132092.49097472924
+                },
+                {
+                    "value": 108436826973.2174
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 3402000.0
+                }
+            ]
+        },
+        {
+            "activity": "Round  Q.C.",
+            "event_id": "Event_7645199c-6561-497a-9f7b-957e38934d35",
+            "distribution_name": "norm",
+            "distribution_params": [
+                {
+                    "value": 39000.0
+                },
+                {
+                    "value": 11640.0
+                },
+                {
+                    "value": 27360.0
+                },
+                {
+                    "value": 50640.0
+                }
+            ]
+        },
+        {
+            "activity": "Round Grinding - Machine 12",
+            "event_id": "Event_ea8af697-f378-498e-9261-d2db2e997680",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 65012.19512195122
+                },
+                {
+                    "value": 54577633275.66924
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1754400.0
+                }
+            ]
+        },
+        {
+            "activity": "Round Grinding - Machine 19",
+            "event_id": "Event_ab682118-e94e-4d07-a184-b0a9ad0ef631",
+            "distribution_name": "uniform",
+            "distribution_params": [
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 48060.0
+                }
+            ]
+        },
+        {
+            "activity": "Round Grinding - Machine 2",
+            "event_id": "Event_0357adc0-0dd4-440d-bb3a-87c40f53084d",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 40347.41573033708
+                },
+                {
+                    "value": 20092421073.096832
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1357620.0
+                }
+            ]
+        },
+        {
+            "activity": "Round Grinding - Machine 23",
+            "event_id": "Event_cf36d38d-f787-4202-9030-35ef83900efe",
+            "distribution_name": "norm",
+            "distribution_params": [
+                {
+                    "value": 277460.0
+                },
+                {
+                    "value": 190239.43650042702
+                },
+                {
+                    "value": 13500.0
+                },
+                {
+                    "value": 454500.0
+                }
+            ]
+        },
+        {
+            "activity": "Round Grinding - Machine 3",
+            "event_id": "Event_e9f73567-63d7-4116-9266-7e36ef0c3d1f",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 58326.37362637363
+                },
+                {
+                    "value": 59139950900.03622
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 2468520.0
+                }
+            ]
+        },
+        {
+            "activity": "Round Grinding - Manual",
+            "event_id": "Event_aefa8411-abd3-4a44-8655-2a06d073c552",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 47180.0
+                },
+                {
+                    "value": 13307488400.0
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 850020.0
+                }
+            ]
+        },
+        {
+            "activity": "Round Grinding - Q.C.",
+            "event_id": "Event_a8dcaaa4-a0ef-488d-8e13-0c5ebbb52aa2",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 85155.25423728813
+                },
+                {
+                    "value": 30712836275.782818
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1003320.0
+                }
+            ]
+        },
+        {
+            "activity": "Setup - Machine 4",
+            "event_id": "Event_f52802f1-c2a5-41a2-add1-642c41ae5869",
+            "distribution_name": "fix",
+            "distribution_params": [
+                {
+                    "value": 120.0
+                }
+            ]
+        },
+        {
+            "activity": "Stress Relief",
+            "event_id": "Event_61d3ba7f-dc67-41c3-9009-2340220b7743",
+            "distribution_name": "norm",
+            "distribution_params": [
+                {
+                    "value": 100.0
+                },
+                {
+                    "value": 141.4213562373095
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 300.0
+                }
+            ]
+        },
+        {
+            "activity": "Turn & Mill. & Screw Assem - Machine 10",
+            "event_id": "Event_a5cc0d15-c869-4e19-ab58-d40d16577863",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 92682.85714285714
+                },
+                {
+                    "value": 146627665934.69388
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 2061480.0
+                }
+            ]
+        },
+        {
+            "activity": "Turn & Mill. & Screw Assem - Machine 9",
+            "event_id": "Event_1e02ad9c-005b-4f7b-ae8e-7919f6da179a",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 31800.0
+                },
+                {
+                    "value": 5737928914.285714
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 217320.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning & Milling - Machine 10",
+            "event_id": "Event_59015fc2-d383-4a83-bae3-ad3d8fd78b72",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 68441.47651006712
+                },
+                {
+                    "value": 76515939297.14879
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 2242080.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning & Milling - Machine 4",
+            "event_id": "Event_05719984-e6cc-437c-ae0e-9355f69e68f2",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 19423.74045801527
+                },
+                {
+                    "value": 5975100079.138743
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 682140.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning & Milling - Machine 5",
+            "event_id": "Event_aa449df7-a2b8-4d7f-a3ea-2664fd00b21d",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 15521.235521235521
+                },
+                {
+                    "value": 4252859494.9985843
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 639000.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning & Milling - Machine 6",
+            "event_id": "Event_e9450ac6-cf5e-433b-ad45-062602830db1",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 27730.57471264368
+                },
+                {
+                    "value": 6983370481.278901
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 832260.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning & Milling - Machine 8",
+            "event_id": "Event_3324f576-b56b-4e27-a4f8-5962dd9e1c5f",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 36279.666666666664
+                },
+                {
+                    "value": 17149332366.55556
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1061520.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning & Milling - Machine 9",
+            "event_id": "Event_fa8f5ef6-d575-422f-a209-209f5301d465",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 40828.48101265823
+                },
+                {
+                    "value": 39089633090.09774
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 2328300.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning & Milling Q.C.",
+            "event_id": "Event_b14a62bd-8339-474e-a70f-6e6355fc5369",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 62806.55172413793
+                },
+                {
+                    "value": 29266636584.661114
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1601400.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning - Machine 4",
+            "event_id": "Event_c15d95d5-aaf3-46d7-823c-9bb562a5a61f",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 8400.0
+                },
+                {
+                    "value": 445162500.0
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 64200.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning - Machine 5",
+            "event_id": "Event_89f87acb-45ce-4339-a5f6-2ce6b83e2f7b",
+            "distribution_name": "expon",
+            "distribution_params": [
+                {
+                    "value": 10140.0
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 20280.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning - Machine 8",
+            "event_id": "Event_d37a3bb2-f213-4e2b-ad8d-10634f60b939",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 36131.56626506024
+                },
+                {
+                    "value": 14760705292.727535
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1018980.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning - Machine 9",
+            "event_id": "Event_332737a0-242d-482a-b98a-f28ed82c5470",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 78123.63636363637
+                },
+                {
+                    "value": 114612494386.77684
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1970820.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning Q.C.",
+            "event_id": "Event_527e730d-478e-4f41-86c3-b10172449ace",
+            "distribution_name": "gamma",
+            "distribution_params": [
+                {
+                    "value": 45789.818181818184
+                },
+                {
+                    "value": 5875685118.148761
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 305400.0
+                }
+            ]
+        },
+        {
+            "activity": "Turning Rework - Machine 21",
+            "event_id": "Event_7ec0c604-3b2f-47ba-ae1b-2c68c8aabced",
+            "distribution_name": "expon",
+            "distribution_params": [
+                {
+                    "value": 485820.0
+                },
+                {
+                    "value": 61140.0
+                },
+                {
+                    "value": 1189500.0
+                }
+            ]
+        },
+        {
+            "activity": "Wire Cut - Machine 13",
+            "event_id": "Event_b0f2da7b-50fe-4a39-ae82-692dc78c2a96",
+            "distribution_name": "lognorm",
+            "distribution_params": [
+                {
+                    "value": 124542.85714285714
+                },
+                {
+                    "value": 45505323820.408165
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 1021080.0
+                }
+            ]
+        },
+        {
+            "activity": "Wire Cut - Machine 18",
+            "event_id": "Event_2f809a1b-2467-426e-8c73-30e903ea0f71",
+            "distribution_name": "norm",
+            "distribution_params": [
+                {
+                    "value": 106670.0
+                },
+                {
+                    "value": 194462.46038760283
+                },
+                {
+                    "value": 0.0
+                },
+                {
+                    "value": 540120.0
+                }
+            ]
+        }
+    ],
+    "model_type": "CRISP",
+    "granule_size": {
+        "value": 40,
+        "time_unit": "MINUTES"
+    }
+}
