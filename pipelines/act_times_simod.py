@@ -12,7 +12,7 @@ simod_config_path = Path(__file__).parent.parent / "simulation" / "simod" / "ahh
 simod_output_path = Path(__file__).parent.parent / "state" / "simod_out"
 
 def run_pipeline():
-    """ data = import_2012()
+    data = import_2012()
     
     data = data.pipe(
         approx_start_end_times
@@ -27,7 +27,7 @@ def run_pipeline():
         log_path=input_log_path,
         config_path=simod_config_path,
         output_dir=simod_output_path
-    ) """
+    )
 
     simod_to_state()
 

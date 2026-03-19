@@ -7,7 +7,7 @@ import pm4py as pm
 from app.services.state_service import store_sim_params, store_bpmn_str
 
 def simod_to_state():
-    print("--- Layouting simod bpmn file and updating the bpmn model state ---")
+    print("--- Updating the bpmn model state ---")
     simod_output_path = Path(__file__).parent.parent.parent / "state" / "simod_out" / "best_result"
 
     bpmn_file_path = next(simod_output_path.glob("*.bpmn"))

@@ -177,6 +177,14 @@ def sync_bpmn_to_sim_params(bpmn_string, activity_defaults=None):
                 resource['assignedTasks'].extend(list(new_activities))
         print(f"✓ Added {len(new_activities)} new activities to all resources")
 
+    # Erste verfügbare Resource-ID finden als Fallback
+    fallback_resource_id = "GLOBAL"
+    for profile in sim_params.get('resource_profiles', []):
+        for resource in profile.get('resource_list', []):
+            fallback_resource_id = resource['id']
+            break
+        break
+
     # Füge Activity Durations hinzu (falls nicht vorhanden)
     if 'task_resource_distribution' not in sim_params:
         sim_params['task_resource_distribution'] = []
@@ -189,15 +197,13 @@ def sync_bpmn_to_sim_params(bpmn_string, activity_defaults=None):
         if activity_id not in existing_task_distributions:
             sim_params['task_resource_distribution'].append({
                 "task_id": activity_id,
-                "resources": [
-                    {
-                        "resource_id": "GLOBAL",
-                        "distribution_name": "fix",
-                        "distribution_params": [
-                            {"value": activity_defaults.get(activity_id, 3600.0)}
-                        ]
-                    }
-                ]
+                "resources": [{
+                    "resource_id": fallback_resource_id,
+                    "distribution_name": "fix",
+                    "distribution_params": [
+                        {"value": activity_defaults.get(activity_id, 3600.0)}
+                    ]
+                }]
             })
 
     # Speichern

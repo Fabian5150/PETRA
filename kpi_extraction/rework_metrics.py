@@ -21,6 +21,8 @@ def get_reworkrate(data):
     allowed_loops = [act for act, dep in self_loops if dep >= 0.8]
 
     data["time:timestamp"] = pd.to_datetime(data["time:timestamp"])
+    data["start_timestamp"] = pd.to_datetime(data["start_timestamp"])
+    data["end_timestamp"] = pd.to_datetime(data["end_timestamp"]) 
     data.sort_values(["case:concept:name", "time:timestamp"], inplace=True)
 
     reworks = []
@@ -47,6 +49,16 @@ def get_reworkrate(data):
 
     rework_rate_pct = affected_cases / total_cases * 100
     avg_reworks_per_case = df_reworks.groupby("case")["activity"].count().mean()
+
+    if df_reworks.empty:
+        return {
+            "rework-cases-total": 0,
+            "rework-cases-percentage": 0.0,
+            "rework-amount-mean": 0.0,
+            "rework-time-med-min": 0.0,
+            "rework-time-diff-med-min": 0.0
+    }
+
 
     median_rework_time = df_reworks["rework_time"].median().total_seconds() / 60
     median_rework_time_diff = df_reworks["rework_time_diff"].median()

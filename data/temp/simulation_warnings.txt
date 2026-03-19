@@ -1,17 +1,46 @@
-Gateway node_761c2fe5-3f27-407e-a182-2dd53e0c898d is using conditions, but some are missing. Flows without conditions: node_f88fb258-e6f4-4104-91f1-f57c8031f4bd, node_35b219a9-fac4-4c50-a3d1-bee741d0227b
-Gateway node_2637d3fb-93c0-406f-808b-6ff7260d122d is using conditions, but some are missing. Flows without conditions: node_a422cda7-893b-405c-a184-5f94e2a683ef, node_4d551279-9816-4792-b613-1e98690ec9d7
-Gateway node_cfc94a29-417e-4691-ba76-78a395159b4f is using conditions, but some are missing. Flows without conditions: node_b28201f6-f740-4f46-8cb1-26dfc66abf93, node_e41a32b7-917a-425f-8ac4-b468ce68bd81, node_924a3cd4-5cd0-4242-baa8-f4c01b18a3f7
-Gateway node_19b2f2be-5657-4560-925e-6ec394c2f1a3 is using conditions, but some are missing. Flows without conditions: node_93690d51-af16-423a-884c-402dd6972b2a, node_0049c9bb-4f7a-4df9-8bea-392cfdcb0a6b
-Gateway node_f41ffe29-f649-43f2-a369-dcaf1f50f475 is using conditions, but some are missing. Flows without conditions: node_a29cc8d8-1287-47f0-a669-f26ac880df81, node_9fa2ccf8-f2f3-4f00-bca1-38c3d7418259
-Gateway node_4b42bd56-f48a-43a5-a0c3-184adae11146 is using conditions, but some are missing. Flows without conditions: node_955b81d3-c5de-400a-a293-52fe54d2520f, node_b21b8435-374d-484c-b6a3-368eeed5a7b7
-Gateway node_9742ecc3-3bd7-4f27-b277-c24d73789cc2 is using conditions, but some are missing. Flows without conditions: node_81751866-ec42-43b3-af6c-3ec76709fce1, node_8f216652-6e69-4634-9058-f22b25a3a53f
-Gateway node_69eac164-b9a4-4176-81fe-e57d1668658b is using conditions, but some are missing. Flows without conditions: node_c2499e1f-47f9-4646-b729-a43beb99493a, node_295fc958-4e72-4d11-841c-05f0aec25154
-Gateway node_1895e629-052f-4705-a526-ce50f12dfd49 is using conditions, but some are missing. Flows without conditions: node_8525fa23-c2eb-4562-9c0b-7698ee4a98e3, node_ec78689d-f081-4ffd-b9c1-b07dc9d52476, node_6f082049-d14e-450b-ae32-1cd4802f5c0f
-Gateway node_82366896-f1c2-4c57-a797-165e5dc2bc9d is using conditions, but some are missing. Flows without conditions: node_b3935470-053d-48f9-bec3-3dabccb93ee2, node_ac4cae5e-e8f8-4cc0-b778-6a56b532a67c
-Gateway node_ca0b7c11-06a8-4a94-b106-55bfd695d49c is using conditions, but some are missing. Flows without conditions: node_53b41174-4f29-42c9-ba73-664d305ef5b7, node_09098228-91e7-4f93-a791-75369a3fca47
-Gateway node_8849de21-bb37-43dc-8429-f7cfba286022 is using conditions, but some are missing. Flows without conditions: node_d0d1a802-1c55-42de-b62b-2d7b9957e43c, node_aa7ab3dd-6627-4618-bfde-f8295d735c2d
-TASK 'A_ACTIVATED' (ID: node_8527d545-d8e4-420d-8db5-aa6f30d126a5) is used less frequently, only in 8 out of 1000 cases (0.80%).
-Flow node_a1a90605-2279-4eed-a45c-ecdb28e644e7 from TASK 'A_ACTIVATED' (ID: node_8527d545-d8e4-420d-8db5-aa6f30d126a5) is used less frequently, only in 8 out of 1000 cases (0.80%).
-TASK 'A_APPROVED' (ID: node_86129141-cdb2-4892-9bb1-eeb62acb2d9c) is used less frequently, only in 8 out of 1000 cases (0.80%).
-Flow node_4a8c23fd-f5cc-4787-9b2a-a63026aa2543 from TASK 'A_APPROVED' (ID: node_86129141-cdb2-4892-9bb1-eeb62acb2d9c) is used less frequently, only in 8 out of 1000 cases (0.80%).
-Flow node_8f216652-6e69-4634-9058-f22b25a3a53f from EXCLUSIVE-GATEWAY 'node_9742ecc3-3bd7-4f27-b277-c24d73789cc2' (ID: node_9742ecc3-3bd7-4f27-b277-c24d73789cc2) is used less frequently, only in 8 out of 1000 cases (0.80%).
+Gateway node_704c5a8e-9326-4839-8847-cf3d2b344690 is using conditions, but some are missing. Flows without conditions: node_f5ecf705-3bc5-432b-b8d9-be0cb5659d3d, node_d0214900-c78f-4ede-bf99-ee5b9831df32
+Gateway node_c795ded1-4189-4068-80bb-1f9343668532 is using conditions, but some are missing. Flows without conditions: node_3801442e-ef95-49a0-9900-5ee611a8f017, node_7ff8d0bf-716d-40e2-a153-548f9c6ef737
+Gateway Gateway_0bl8pdh is using conditions, but some are missing. Flows without conditions: Flow_081xdqn, Flow_16a38ms
+Gateway node_5ca646f9-9747-4a52-9bbf-7565aff175e7 is using conditions, but some are missing. Flows without conditions: node_56c5d3f8-dddc-4894-bfe7-c0aca58e1596, node_4ced742e-33ff-4c95-b3dc-42e6a09807a4
+Gateway Gateway_0gdzcaj is using conditions, but some are missing. Flows without conditions: Flow_0fcmvl5, Flow_16ctw7q
+TASK 'Analyze Quotation Comparison Map' (ID: node_5f8c4efb-e30c-443f-8d44-b0e16d29e27f) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Release Supplier's Invoice' (ID: node_9eb84d63-4401-40a9-89c5-82dd548cc1b1) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Create Purchase Order' (ID: node_8c0d6035-e685-4dde-b08e-f66689f113b0) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Create Quotation comparison Map' (ID: node_de862e6a-56a4-41cf-bdae-5c1659d16d85) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Deliver Goods Services' (ID: node_2059edba-d686-4372-b9ea-517fe9ec3a19) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Pay Invoice' (ID: node_b542b733-24d8-40b5-b5dc-9aaf42fbb8de) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Create Request for Quotation' (ID: node_3bc8b12b-c77f-4568-8457-9df0f4ae109e) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Release Purchase Order' (ID: node_0e7015ef-f996-4f7f-a4a5-62fbd6186a51) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Settle Dispute With Supplier' (ID: node_f55fc4ea-1ec3-4d31-9289-f8df28d85158) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Settle Conditions With Supplier' (ID: node_d7678b75-9b12-4bec-a9fd-f063ca8dcce9) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Send Invoice' (ID: node_3e08bb20-27a8-4072-b724-c9bb3b84d5e1) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Confirm Purchase Order' (ID: node_3e3d191f-f537-4bd6-a051-cbcd50dfd699) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Amend Request for Quotation' (ID: node_9f96d222-afe5-45cd-b89c-e2b0e84e0c2b) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Authorize Supplier's Invoice payment' (ID: node_15d715f4-0355-4e07-9ea9-f6e3b811f4c2) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Approve Purchase Order for payment' (ID: node_d51a4f23-15fd-4d54-9d08-5140ee3d3576) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Choose best option' (ID: node_c1da74ed-092e-42a7-8d6c-4bee996317b5) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Send Request for Quotation to Supplier' (ID: node_496961b7-353a-4633-a205-bcecfe65b65d) is used less frequently, only in 0 out of 1000 cases (0.00%).
+TASK 'Analyze Request for Quotation' (ID: node_cb620bc3-933a-4c45-9afa-4b66cb82e6b3) is used less frequently, only in 0 out of 1000 cases (0.00%).
+EXCLUSIVE-GATEWAY 'node_704c5a8e-9326-4839-8847-cf3d2b344690' (ID: node_704c5a8e-9326-4839-8847-cf3d2b344690) is used less frequently, only in 0 out of 1000 cases (0.00%).
+EXCLUSIVE-GATEWAY 'node_c795ded1-4189-4068-80bb-1f9343668532' (ID: node_c795ded1-4189-4068-80bb-1f9343668532) is used less frequently, only in 0 out of 1000 cases (0.00%).
+EXCLUSIVE-GATEWAY 'node_9e55168e-6a4a-4d47-a0b9-c6c2daf60ee8' (ID: node_9e55168e-6a4a-4d47-a0b9-c6c2daf60ee8) is used less frequently, only in 0 out of 1000 cases (0.00%).
+EXCLUSIVE-GATEWAY 'node_208464af-5c84-416e-b904-902ebc171b7b' (ID: node_208464af-5c84-416e-b904-902ebc171b7b) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_410372ce-d08e-4ab4-a186-40f11a7c36e7' (ID: Event_410372ce-d08e-4ab4-a186-40f11a7c36e7) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_b67857c3-bbce-47a7-a6c7-7b8c3e8c2713' (ID: Event_b67857c3-bbce-47a7-a6c7-7b8c3e8c2713) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_cbe4134f-37a7-413a-a24b-319e42664bc8' (ID: Event_cbe4134f-37a7-413a-a24b-319e42664bc8) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_d0427ce8-151c-4e61-b28c-5ec30776a974' (ID: Event_d0427ce8-151c-4e61-b28c-5ec30776a974) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_e0eac6ff-e825-4a9c-8ba7-96bc27b770e4' (ID: Event_e0eac6ff-e825-4a9c-8ba7-96bc27b770e4) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_4ba3c1be-eb27-4439-b887-9eb843b217cf' (ID: Event_4ba3c1be-eb27-4439-b887-9eb843b217cf) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_eac47e44-60a2-425f-b52b-77fe5f95fcd8' (ID: Event_eac47e44-60a2-425f-b52b-77fe5f95fcd8) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_1f43660f-623b-4acf-9837-af8c0346e3f4' (ID: Event_1f43660f-623b-4acf-9837-af8c0346e3f4) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_bcaa193d-0f16-47b8-a451-d891d6f99c72' (ID: Event_bcaa193d-0f16-47b8-a451-d891d6f99c72) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_53b60af2-6f3a-4eb7-a072-4521ec392c49' (ID: Event_53b60af2-6f3a-4eb7-a072-4521ec392c49) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_4a72b08c-611b-4d19-a3cd-4b0c2abf2cf2' (ID: Event_4a72b08c-611b-4d19-a3cd-4b0c2abf2cf2) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_601ad846-0629-4816-b227-c42a3fadb7ab' (ID: Event_601ad846-0629-4816-b227-c42a3fadb7ab) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_6ec0792f-a06b-432c-9c47-869db0d1f2d4' (ID: Event_6ec0792f-a06b-432c-9c47-869db0d1f2d4) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_3185b440-69b3-4520-8361-5a305b049f95' (ID: Event_3185b440-69b3-4520-8361-5a305b049f95) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_96271d85-5e1e-4a60-b073-eef229685830' (ID: Event_96271d85-5e1e-4a60-b073-eef229685830) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_f08cf175-1c9c-4a9f-9c1f-62731b7710e8' (ID: Event_f08cf175-1c9c-4a9f-9c1f-62731b7710e8) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_7c345246-e553-418d-af6e-d5ee130bebf8' (ID: Event_7c345246-e553-418d-af6e-d5ee130bebf8) is used less frequently, only in 0 out of 1000 cases (0.00%).
+INTERMEDIATE_EVENT 'Event_b782d9b4-7d60-4c93-aa09-cd76bb1111fd' (ID: Event_b782d9b4-7d60-4c93-aa09-cd76bb1111fd) is used less frequently, only in 0 out of 1000 cases (0.00%).
+EXCLUSIVE-GATEWAY 'xor_join_node_496961b7-353a-4633-a205-bcecfe65b65d' (ID: xor_join_node_496961b7-353a-4633-a205-bcecfe65b65d) is used less frequently, only in 0 out of 1000 cases (0.00%).
