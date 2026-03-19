@@ -98,7 +98,8 @@ def load_bottleneck():
         data = json.load(f)
     return data.get("bottleneck")
 
-def sync_bpmn_to_sim_params(bpmn_string):
+def sync_bpmn_to_sim_params(bpmn_string, activity_defaults=None):
+    activity_defaults = activity_defaults or {}
     """
     Synced BPMN mit sim_params.json:
     - Fügt fehlende Gateways mit Gleichverteilung hinzu
@@ -196,7 +197,7 @@ def sync_bpmn_to_sim_params(bpmn_string):
                         "resource_id": "GLOBAL",
                         "distribution_name": "fix",
                         "distribution_params": [
-                            {"value": 3600.0}
+                            {"value": activity_defaults.get(activity_id, 3600.0)}
                         ]
                     }
                 ]

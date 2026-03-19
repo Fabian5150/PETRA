@@ -40,6 +40,3 @@ def run_pipeline(data):
     print("\n\n", kpi_dict, "\n\n")
 
     store_kpis(kpi_dict)
-
-if __name__ == "__main__":
-    run_pipeline(import_2012())
