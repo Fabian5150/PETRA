@@ -43,6 +43,8 @@ Blocks response until prosimos is done
 """
 @router.post("/process-model-simulation")
 def set_current_process_model(payload: BpmnPayload):
+    print("activityDefaults:", payload.activityDefaults)
+
     store_bpmn_str(payload.bpmnString)
     sync_bpmn_to_sim_params(payload.bpmnString, payload.activityDefaults)
 

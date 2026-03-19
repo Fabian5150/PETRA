@@ -54,7 +54,7 @@ def store_bpmn_obj(process_model: BPMN, layout = False):
 Stores a bpmn xml string directly in the bpmn state file
 Can adjust its' layout
 """
-def store_bpmn_str(bpmn_string: str, layout = False, syncParams = True):
+def store_bpmn_str(bpmn_string: str, layout = False, syncParams = False):
     if(syncParams):
         sync_bpmn_to_sim_params(bpmn_string)
     
@@ -99,95 +99,92 @@ def load_bottleneck():
     return data.get("bottleneck")
 
 def sync_bpmn_to_sim_params(bpmn_string, activity_defaults=None):
-    activity_defaults = activity_defaults or {}
     """
     Synced BPMN mit sim_params.json:
-    - Fügt fehlende Gateways mit Gleichverteilung hinzu
+    - Fügt fehlende Gateways mit aktuellen Flow-IDs hinzu
     - Fügt fehlende Activities mit Default-Werten hinzu
     """
+    activity_defaults = activity_defaults or {}
+
     # Parse BPMN (über temp file)
     with tempfile.NamedTemporaryFile(mode='w', suffix='.bpmn', delete=False) as f:
         f.write(bpmn_string)
         temp_path = f.name
-    
+
     try:
         bpmn = pm.read_bpmn(temp_path)
     finally:
         Path(temp_path).unlink()
-    
+
     # Lade sim_params
     with sim_params_file.open('r') as f:
         sim_params = json.load(f)
-    
+
     # --- 1. Gateway Probabilities ---
     gateway_ids = set()
-    gateway_flows = {}  # gateway_id -> [outgoing_flow_ids]
-    
+    gateway_flows = {}
+
     for node in bpmn.get_nodes():
-        # Check via class name
-        node_class = node.__class__.__name__
-        if 'Gateway' in node_class:
+        if 'Gateway' in node.__class__.__name__:
             gateway_id = node.get_id()
             gateway_ids.add(gateway_id)
             gateway_flows[gateway_id] = []
-    
+
     for flow in bpmn.get_flows():
         source_id = flow.get_source().get_id()
         if source_id in gateway_ids:
             gateway_flows[source_id].append(flow.get_id())
-    
+
     if 'gateway_branching_probabilities' not in sim_params:
         sim_params['gateway_branching_probabilities'] = []
-    
-    existing_gateways = {g['gateway_id'] for g in sim_params['gateway_branching_probabilities']}
-    
+
     for gateway_id, outgoing_flows in gateway_flows.items():
-        if gateway_id not in existing_gateways and outgoing_flows:
-            prob = 1.0 / len(outgoing_flows)
-            sim_params['gateway_branching_probabilities'].append({
-                "gateway_id": gateway_id,
-                "probabilities": [
-                    {"path_id": flow_id, "value": prob}
-                    for flow_id in outgoing_flows
-                ]
-            })
-    
+        if not outgoing_flows:
+            continue
+
+        prob = 1.0 / len(outgoing_flows)
+
+        sim_params['gateway_branching_probabilities'] = [
+            g for g in sim_params['gateway_branching_probabilities']
+            if g['gateway_id'] != gateway_id
+        ]
+
+        sim_params['gateway_branching_probabilities'].append({
+            "gateway_id": gateway_id,
+            "probabilities": [
+                {"path_id": flow_id, "value": prob}
+                for flow_id in outgoing_flows
+            ]
+        })
+
     # --- 2. Activity Resource Assignments & Durations ---
     activity_ids = set()
     for node in bpmn.get_nodes():
-        node_class = node.__class__.__name__
-        # Nur Tasks (Activities)
-        if node_class == 'Task' and node.get_name():
+        if node.__class__.__name__ == 'Task' and node.get_name():
             activity_ids.add(node.get_id())
-    
+
     # Finde bestehende Activities in allen resource_profiles
     existing_activities = set()
     for profile in sim_params.get('resource_profiles', []):
         for resource in profile.get('resource_list', []):
             existing_activities.update(resource.get('assignedTasks', []))
-    
-    # Finde GLOBAL resource (default fallback)
-    global_resource = None
-    for profile in sim_params.get('resource_profiles', []):
-        for resource in profile.get('resource_list', []):
-            if resource['name'] == 'GLOBAL':
-                global_resource = resource
-                break
-    
-    # Füge neue Activities zu GLOBAL hinzu
+
+    # Füge neue Activities zu ALLEN resources hinzu
     new_activities = activity_ids - existing_activities
-    if new_activities and global_resource:
-        global_resource['assignedTasks'].extend(list(new_activities))
-        print(f"✓ Added {len(new_activities)} new activities to GLOBAL resource")
-    
+    if new_activities:
+        for profile in sim_params.get('resource_profiles', []):
+            for resource in profile.get('resource_list', []):
+                resource['assignedTasks'].extend(list(new_activities))
+        print(f"✓ Added {len(new_activities)} new activities to all resources")
+
     # Füge Activity Durations hinzu (falls nicht vorhanden)
     if 'task_resource_distribution' not in sim_params:
         sim_params['task_resource_distribution'] = []
-    
+
     existing_task_distributions = {
         t['task_id'] for t in sim_params['task_resource_distribution']
     }
-    
+
     for activity_id in activity_ids:
         if activity_id not in existing_task_distributions:
             sim_params['task_resource_distribution'].append({
@@ -202,9 +199,9 @@ def sync_bpmn_to_sim_params(bpmn_string, activity_defaults=None):
                     }
                 ]
             })
-    
+
     # Speichern
     with sim_params_file.open('w') as f:
         json.dump(sim_params, f, indent=4)
-    
+
     print(f"✓ Synced {len(gateway_ids)} gateways and {len(activity_ids)} activities")
