@@ -1,17 +1,22 @@
-Gateway node_f89cd290-5006-4c68-b357-3b571bb7ebab is using conditions, but some are missing. Flows without conditions: node_2cf188da-fb10-4398-b8a8-3df729bc2c00, node_b0adba65-bd91-4574-9d49-7c339d523807
-Gateway node_9e71ba67-51ab-4b87-923e-8d5b6e028e7f is using conditions, but some are missing. Flows without conditions: node_1b14b76c-7a61-4295-8bf9-487fe2b29ed6, node_27294ef3-b91b-4075-a8da-7f6d6cd535da
-TASK 'Accepted' (ID: node_26ff3108-e81d-4a4b-ba2e-0615fd5610e3) is used more frequently than expected, in 4129 out of 1000 cases (412.90%).
-Flow node_a7c09671-d1c3-4dbc-bdb4-d2e8773134ca from TASK 'Accepted' (ID: node_26ff3108-e81d-4a4b-ba2e-0615fd5610e3) is used more frequently than expected, in 4129 out of 1000 cases (412.90%).
-TASK 'Completed' (ID: node_316dde17-5590-4ae1-90e1-9b9904f46e00) is used more frequently than expected, in 1848 out of 1000 cases (184.80%).
-Flow node_a6fbc35e-e956-43cd-b3bc-ffa9283b7aaf from TASK 'Completed' (ID: node_316dde17-5590-4ae1-90e1-9b9904f46e00) is used more frequently than expected, in 1848 out of 1000 cases (184.80%).
-EXCLUSIVE-GATEWAY 'node_407ad495-1e46-4baf-8551-14bbbabcdddd' (ID: node_407ad495-1e46-4baf-8551-14bbbabcdddd) is used more frequently than expected, in 4129 out of 1000 cases (412.90%).
-Flow node_cd6fe36e-dc45-4feb-a333-f789080fe7fd from EXCLUSIVE-GATEWAY 'node_407ad495-1e46-4baf-8551-14bbbabcdddd' (ID: node_407ad495-1e46-4baf-8551-14bbbabcdddd) is used more frequently than expected, in 4129 out of 1000 cases (412.90%).
-EXCLUSIVE-GATEWAY 'node_f89cd290-5006-4c68-b357-3b571bb7ebab' (ID: node_f89cd290-5006-4c68-b357-3b571bb7ebab) is used more frequently than expected, in 4129 out of 1000 cases (412.90%).
-Flow node_b0adba65-bd91-4574-9d49-7c339d523807 from EXCLUSIVE-GATEWAY 'node_f89cd290-5006-4c68-b357-3b571bb7ebab' (ID: node_f89cd290-5006-4c68-b357-3b571bb7ebab) is used more frequently than expected, in 3129 out of 1000 cases (312.90%).
-EXCLUSIVE-GATEWAY 'node_a9981c76-e1e8-448a-95e8-c3f4b5a7a0ac' (ID: node_a9981c76-e1e8-448a-95e8-c3f4b5a7a0ac) is used more frequently than expected, in 1848 out of 1000 cases (184.80%).
-Flow node_77fe9fbc-ee37-47b2-a9d2-fe8c838b883b from EXCLUSIVE-GATEWAY 'node_a9981c76-e1e8-448a-95e8-c3f4b5a7a0ac' (ID: node_a9981c76-e1e8-448a-95e8-c3f4b5a7a0ac) is used more frequently than expected, in 1848 out of 1000 cases (184.80%).
-EXCLUSIVE-GATEWAY 'node_9e71ba67-51ab-4b87-923e-8d5b6e028e7f' (ID: node_9e71ba67-51ab-4b87-923e-8d5b6e028e7f) is used more frequently than expected, in 1848 out of 1000 cases (184.80%).
-INTERMEDIATE_EVENT 'Event_b5ed31b4-4fce-4902-aa38-77d6b52b2523' (ID: Event_b5ed31b4-4fce-4902-aa38-77d6b52b2523) is used more frequently than expected, in 4129 out of 1000 cases (412.90%).
-Flow Flow_f55c8762-8a28-4144-b8ae-11cdc4ad9074 from INTERMEDIATE_EVENT 'Event_b5ed31b4-4fce-4902-aa38-77d6b52b2523' (ID: Event_b5ed31b4-4fce-4902-aa38-77d6b52b2523) is used more frequently than expected, in 4129 out of 1000 cases (412.90%).
-INTERMEDIATE_EVENT 'Event_097491bf-e1dc-4dc9-b1d7-8eff8dbfafb6' (ID: Event_097491bf-e1dc-4dc9-b1d7-8eff8dbfafb6) is used more frequently than expected, in 1848 out of 1000 cases (184.80%).
-Flow Flow_1089c96c-5b08-4037-b3e4-b3a4c675d918 from INTERMEDIATE_EVENT 'Event_097491bf-e1dc-4dc9-b1d7-8eff8dbfafb6' (ID: Event_097491bf-e1dc-4dc9-b1d7-8eff8dbfafb6) is used more frequently than expected, in 1848 out of 1000 cases (184.80%).
+Gateway node_704c5a8e-9326-4839-8847-cf3d2b344690 is using conditions, but some are missing. Flows without conditions: node_d0214900-c78f-4ede-bf99-ee5b9831df32, node_f5ecf705-3bc5-432b-b8d9-be0cb5659d3d
+Gateway node_c795ded1-4189-4068-80bb-1f9343668532 is using conditions, but some are missing. Flows without conditions: node_3801442e-ef95-49a0-9900-5ee611a8f017, node_7ff8d0bf-716d-40e2-a153-548f9c6ef737
+Gateway node_5ca646f9-9747-4a52-9bbf-7565aff175e7 is using conditions, but some are missing. Flows without conditions: node_56c5d3f8-dddc-4894-bfe7-c0aca58e1596, node_4ced742e-33ff-4c95-b3dc-42e6a09807a4
+TASK 'Analyze Purchase Requisition' (ID: node_52828fbd-bf7b-47d9-b09c-811f2daf5046) is used more frequently than expected, in 1021 out of 1000 cases (102.10%).
+Flow node_43540f46-9cab-4018-8016-ec6bb3fcd33c from TASK 'Analyze Purchase Requisition' (ID: node_52828fbd-bf7b-47d9-b09c-811f2daf5046) is used more frequently than expected, in 1021 out of 1000 cases (102.10%).
+TASK 'Amend Request for Quotation' (ID: node_9f96d222-afe5-45cd-b89c-e2b0e84e0c2b) is used more frequently than expected, in 1307 out of 1000 cases (130.70%).
+Flow node_7e0eebac-6335-44ab-ba45-99b5729bdd13 from TASK 'Amend Request for Quotation' (ID: node_9f96d222-afe5-45cd-b89c-e2b0e84e0c2b) is used more frequently than expected, in 1307 out of 1000 cases (130.70%).
+TASK 'Analyze Request for Quotation' (ID: node_cb620bc3-933a-4c45-9afa-4b66cb82e6b3) is used more frequently than expected, in 2307 out of 1000 cases (230.70%).
+Flow node_a232de6d-77a1-48f2-9cf7-8d9e8c2d1a15 from TASK 'Analyze Request for Quotation' (ID: node_cb620bc3-933a-4c45-9afa-4b66cb82e6b3) is used more frequently than expected, in 2307 out of 1000 cases (230.70%).
+EXCLUSIVE-GATEWAY 'node_704c5a8e-9326-4839-8847-cf3d2b344690' (ID: node_704c5a8e-9326-4839-8847-cf3d2b344690) is used more frequently than expected, in 2307 out of 1000 cases (230.70%).
+Flow node_f5ecf705-3bc5-432b-b8d9-be0cb5659d3d from EXCLUSIVE-GATEWAY 'node_704c5a8e-9326-4839-8847-cf3d2b344690' (ID: node_704c5a8e-9326-4839-8847-cf3d2b344690) is used more frequently than expected, in 1307 out of 1000 cases (130.70%).
+EXCLUSIVE-GATEWAY 'node_5ca646f9-9747-4a52-9bbf-7565aff175e7' (ID: node_5ca646f9-9747-4a52-9bbf-7565aff175e7) is used more frequently than expected, in 1021 out of 1000 cases (102.10%).
+EXCLUSIVE-GATEWAY 'node_9e55168e-6a4a-4d47-a0b9-c6c2daf60ee8' (ID: node_9e55168e-6a4a-4d47-a0b9-c6c2daf60ee8) is used more frequently than expected, in 2307 out of 1000 cases (230.70%).
+Flow node_5fa3d80c-53ee-4ef2-8caa-925e80999a7c from EXCLUSIVE-GATEWAY 'node_9e55168e-6a4a-4d47-a0b9-c6c2daf60ee8' (ID: node_9e55168e-6a4a-4d47-a0b9-c6c2daf60ee8) is used more frequently than expected, in 2307 out of 1000 cases (230.70%).
+EXCLUSIVE-GATEWAY 'node_526e3509-1c90-45a4-b92f-43b4271eaabe' (ID: node_526e3509-1c90-45a4-b92f-43b4271eaabe) is used more frequently than expected, in 1021 out of 1000 cases (102.10%).
+Flow node_08e47639-36f0-43bc-98e2-17ce08057930 from EXCLUSIVE-GATEWAY 'node_526e3509-1c90-45a4-b92f-43b4271eaabe' (ID: node_526e3509-1c90-45a4-b92f-43b4271eaabe) is used more frequently than expected, in 1021 out of 1000 cases (102.10%).
+INTERMEDIATE_EVENT 'Event_9810e1a8-8b54-435a-95ba-40571b5cc636' (ID: Event_9810e1a8-8b54-435a-95ba-40571b5cc636) is used more frequently than expected, in 1021 out of 1000 cases (102.10%).
+Flow Flow_79471b1c-5bcf-4143-adf6-7bc3ef63fab2 from INTERMEDIATE_EVENT 'Event_9810e1a8-8b54-435a-95ba-40571b5cc636' (ID: Event_9810e1a8-8b54-435a-95ba-40571b5cc636) is used more frequently than expected, in 1021 out of 1000 cases (102.10%).
+INTERMEDIATE_EVENT 'Event_6ec0792f-a06b-432c-9c47-869db0d1f2d4' (ID: Event_6ec0792f-a06b-432c-9c47-869db0d1f2d4) is used more frequently than expected, in 1307 out of 1000 cases (130.70%).
+Flow Flow_e3545868-38c7-4b7d-9bbd-2185d0254133 from INTERMEDIATE_EVENT 'Event_6ec0792f-a06b-432c-9c47-869db0d1f2d4' (ID: Event_6ec0792f-a06b-432c-9c47-869db0d1f2d4) is used more frequently than expected, in 1307 out of 1000 cases (130.70%).
+INTERMEDIATE_EVENT 'Event_b782d9b4-7d60-4c93-aa09-cd76bb1111fd' (ID: Event_b782d9b4-7d60-4c93-aa09-cd76bb1111fd) is used more frequently than expected, in 2307 out of 1000 cases (230.70%).
+Flow Flow_2dd18184-926e-437c-9607-e6ce4cdacd53 from INTERMEDIATE_EVENT 'Event_b782d9b4-7d60-4c93-aa09-cd76bb1111fd' (ID: Event_b782d9b4-7d60-4c93-aa09-cd76bb1111fd) is used more frequently than expected, in 2307 out of 1000 cases (230.70%).

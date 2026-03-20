@@ -1,43 +1,44 @@
 version: 5
+
 common:
+  train_log_path: ./data/manufacturing/manufacturing_simod_cleaned.csv
   log_ids:
     case: "case_id"
-    activity: "activity_key"
+    activity: "activity"
     resource: "resource"
-    start_time: "start_date"
-    end_time: "end_date"
-  train_log_path: "data/bpi_2012/bpi_2012_approx_activity_times.csv"
-  test_log_path: null
-  perform_final_evaluation: false
+    start_time: "start_time"
+    end_time: "end_time"
 
 preprocessing:
-  enable_time_filtering: false
-  enable_outlier_filtering: false
+  enable_time_concurrency_threshold: 0.9
+  multitasking: false
 
 control_flow:
-  mining_algorithm: "sm1"
-  epsilon: 0.1
-  eta: 0.4
-  replace_or_joins: true
+  optimization_metric: two_gram_distance
+  mining_algorithm: sm2
 
-optimization:
-  optimization_metric: "dl"
-  max_evaluations: 3
-  num_iterations: 3
-  gateway_probabilities: true
+  num_iterations: 1
+  num_evaluations_per_iteration: 1
 
-simulation:
-  model_type: "BPMN"
-  num_instances: 500
+  epsilon: 0.4
+  eta: 0.5
+
+  replace_or_joins: [false]
+  prioritize_parallelism: [false]
+  discover_branch_rules: false
 
 resource_model:
-  discovery_type: "differentiated"
-  granularity: 60
+  optimization_metric: circadian_emd
 
-resource:
+  num_iterations: 1
+  num_evaluations_per_iteration: 1
+
   discover_prioritization_rules: false
   discover_batching_rules: false
 
-calendar:
-  discovery_type: "differentiated"
-  granularity: 60
+  resource_profiles:
+    discovery_type: differentiated # undifferentiated
+
+extraneous_activity_delays:
+  discovery_method: eclipse-aware
+  num_iterations: 1
