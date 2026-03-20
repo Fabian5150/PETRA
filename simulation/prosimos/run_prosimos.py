@@ -9,7 +9,7 @@ json_path=script_dir / "state/sim_params.json"
 json_path=script_dir / "state/simod_out/best_result/bpi_2012_approx_activity_times.json" """
 output_csv=script_dir / "data/temp/prosimos_log.csv"
 
-def run_prosimos(num_cases: int = 1000):
+def run_prosimos(num_cases: int = 10):
     subprocess.run([
         "prosimos", "start-simulation",
         "--bpmn_path", str(Path(bpmn_path).resolve()),
